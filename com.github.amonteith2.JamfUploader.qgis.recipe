@@ -1,0 +1,14 @@
+Identifier: ccom.github.amonteith2.JamfUploader.qgis.recipe
+ParentRecipe: ccom.github.amonteith2.pkg.qgis.recipe
+MinimumVersion: '2.3'
+
+Input:
+  NAME: QGIS
+  SOFTWARE_TITLE: '%NAME%'
+  CATEGORY: Staff
+
+Process:
+  - Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
+    Arguments:
+      pkg_category: '%CATEGORY%'
+
