@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest version of QGIS. This installer includes all dependencies in one easy-to-deploy app bundle.</string>
+    <string>Downloads the latest version of QGIS. This installer includes all dependencies in one easy-to-deploy bundle.</string>
     <key>Identifier</key>
     <string>com.github.amonteith2.download.qgis.recipe</string>
     <key>Input</key>
