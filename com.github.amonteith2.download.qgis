@@ -1,0 +1,31 @@
+<?xml version=”1.0" encoding=”UTF-8"?>
+<!DOCTYPE plist PUBLIC “-//Apple//DTD PLIST 1.0//EN” “http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version=”1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads the latest version of QGIS. This installer includes all dependencies in one easy-to-deploy app bundle.</string>
+    <key>Identifier</key>
+    <string>com.github.amonteith2.download.qgis</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>QGIS</string>
+    </dict>
+    <key>Process</key>
+        <array>
+        <dict>
+            <key>Processor</key>
+            <string>URLDownloader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>url</key>
+                <string>https://qgis.org/downloads/macos/qgis-macos-pr.dmg</string>
+            </dict>
+        </dict>
+        <dict>
+    <key>Processor</key>
+    <string>EndOfCheckPhase</string>
+        </dict>
+        </array>
+</dict>
+</plist>
