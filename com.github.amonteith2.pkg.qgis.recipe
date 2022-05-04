@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Creates installer package from downloaded QGIS dmg.</string>
     <key>Identifier</key>
-    <string>com.github.amonteith2.pkg.qgis</string>
+    <string>com.github.amonteith2.pkg.qgis.recipe</string>
     <key>Input</key>
     <dict>
         <key></key>
         <string></string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.amonteith2.download.qgis</string>
+    <string>com.github.amonteith2.download.qgis.recipe</string>
     <key>Process</key>
         <array>
         <dict>
