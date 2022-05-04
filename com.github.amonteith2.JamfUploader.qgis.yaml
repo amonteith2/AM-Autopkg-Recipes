@@ -1,5 +1,5 @@
-Identifier: ccom.github.amonteith2.JamfUploader.qgis.recipe
-ParentRecipe: ccom.github.amonteith2.pkg.qgis.recipe
+Identifier: com.github.amonteith2.JamfUploader.qgis.yaml
+ParentRecipe: com.github.amonteith2.pkg.qgis.recipe
 MinimumVersion: '2.3'
 
 Input:
