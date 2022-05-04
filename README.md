@@ -1,2 +1,2 @@
 # autopkg-test
-Testing out my own recipes
+Testing out recipes that may need to be modified
