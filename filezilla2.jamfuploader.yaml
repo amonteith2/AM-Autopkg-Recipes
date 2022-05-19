@@ -1,6 +1,6 @@
 Description: Recipe description
-Identifier: =com.github.amonteith2.jamf-uploader.FileZilla
-ParentRecipe: =com.github.amonteith2.pkg.FileZilla
+Identifier: com.github.amonteith2.jamf-uploader.FileZilla
+ParentRecipe: com.github.amonteith2.pkg.FileZilla
 Input:
   NAME: Filezilla
   CATEGORY: Staff
