@@ -5,7 +5,7 @@
       <key>Description</key>
       <string>Downloads the latest Microsoft Defender installer pkg.</string>
       <key>Identifier</key>
-      <string>com.github.rtrouton.download.microsoftdefender</string>
+      <string>com.github.amonteith2.download.microsoftdefender</string>
       <key>MinimumVersion</key>
       <string>1.0.0</string>
       <key>Input</key>
