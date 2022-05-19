@@ -1,5 +1,5 @@
 Comment: Recipe shamelessly swiped from someone else.
-Identifier: com.github.amonteith2.jamf-uploader.FileZilla
+Identifier: com.github.amonteith2.jamf-uploader.FileZilla.yaml
 ParentRecipe: com.github.amonteith2.pkg.FileZilla
 MinimumVersion: '2.3'
 
