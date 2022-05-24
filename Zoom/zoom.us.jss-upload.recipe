@@ -18,7 +18,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.amonteith2.pkg.zoom.us</string>
+	<string>com.github.amonteith2.zoom.us.pkg</string>
 	<key>Process</key>
 	<array>
 		<dict>
