@@ -1,5 +1,5 @@
 Comment: Recipe automatically generated from com.github.jss-recipes.jss.Zoom by JamfRecipeMaker
-Identifier: com.github.amonteith2.jamf.zoom.us-pkg-upload
+Identifier: com.github.amonteith2.jamf.zoom.us
 ParentRecipe: ccom.github.amonteith2.zoom.us.pkg
 MinimumVersion: '2.3'
 
