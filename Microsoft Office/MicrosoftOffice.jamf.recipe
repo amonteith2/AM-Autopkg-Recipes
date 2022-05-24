@@ -1,0 +1,17 @@
+Comment: Adapted from another recipe.
+Identifier: com.github.amonteith2.jamf.MSOffice-pkg-upload
+ParentRecipe: MicrosoftOffice365Suite.pkg.recipe
+MinimumVersion: '2.3'
+
+Input:
+  NAME: Microsoft Office
+  CATEGORY: Productivity
+
+Process:
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfCategoryUploader
+  Arguments:
+    category_name: '%CATEGORY%'
+
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
+  Arguments:
+    pkg_category: '%CATEGORY%'
