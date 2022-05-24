@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the current release version of Zoom and builds a package.</string>
 	<key>Identifier</key>
-	<string>com.github.amonteith2.pkg.Zoom</string>
+	<string>com.github.amonteith2.zoom.us.pkg</string>
 	<key>Input</key>
 	<dict>
 		<key>BUNDLE_ID</key>
