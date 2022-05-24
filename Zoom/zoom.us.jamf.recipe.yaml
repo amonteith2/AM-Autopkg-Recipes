@@ -1,6 +1,6 @@
 Comment: Recipe automatically generated from com.github.jss-recipes.jss.Zoom by JamfRecipeMaker
 Identifier: com.github.amonteith2.zoom.us.jamf
-ParentRecipe: ccom.github.amonteith2.zoom.us.pkg
+ParentRecipe: com.github.amonteith2.zoom.us.pkg
 MinimumVersion: '2.3'
 
 Input:
