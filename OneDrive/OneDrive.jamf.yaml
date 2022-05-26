@@ -1,4 +1,4 @@
-Comment: Recipe automatically generated from com.github.jss-recipes.jss.Zoom by JamfRecipeMaker
+Comment: Pilfered from someone else.
 Identifier: com.github.amonteith2.OneDrive.jamf
 ParentRecipe: corp.sap.maccoe.pkg.microsoftuniversalonedrive
 MinimumVersion: '2.3'
