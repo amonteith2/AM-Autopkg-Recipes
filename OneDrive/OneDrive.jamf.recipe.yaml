@@ -8,7 +8,7 @@ Input:
   CATEGORY: Productivity
   POLICY_CATEGORY: Staff
   POLICY_NAME: App-%NAME%
-  POLICY_TEMPLATE: JamfPolicyTemplate.xml
+  POLICY_TEMPLATE: JamfUploaderPolicyTemplate.xml
   SELF_SERVICE_DISPLAY_NAME: Install Latest %NAME%
   SELF_SERVICE_DESCRIPTION: OneDrive connects your Mac to your cloud storage.
   SELF_SERVICE_ICON: '%NAME%.png'
