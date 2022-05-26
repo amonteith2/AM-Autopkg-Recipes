@@ -1,0 +1,26 @@
+Comment: Recipe automatically generated from com.github.jss-recipes.jss.Zoom by JamfRecipeMaker
+Identifier: com.github.amonteith2.OneDrive.jamf
+ParentRecipe: corp.sap.maccoe.pkg.microsoftuniversalonedrive
+MinimumVersion: '2.3'
+
+Input:
+  NAME: OneDrive
+  CATEGORY: Productivity
+  POLICY_CATEGORY: Staff
+  POLICY_NAME: App-%NAME%
+  POLICY_TEMPLATE: JamfPolicyTemplate.xml
+  SELF_SERVICE_DISPLAY_NAME: Install Latest %NAME%
+  SELF_SERVICE_DESCRIPTION: OneDrive connects your Mac to your cloud storage.
+  SELF_SERVICE_ICON: '%NAME%.png'
+  UPDATE_PREDICATE: pkg_uploaded == False
+
+Process:
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
+  Arguments:
+    pkg_category: '%CATEGORY%'
+
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader
+  Arguments:
+    icon: '%SELF_SERVICE_ICON%'
+    policy_name: '%POLICY_NAME%'
+    policy_template: '%POLICY_TEMPLATE%'
