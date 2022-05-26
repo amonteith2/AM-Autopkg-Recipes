@@ -19,10 +19,6 @@ Process:
   Arguments:
     pkg_category: '%CATEGORY%'
 
-- Processor: StopProcessingIf
-  Arguments:
-    predicate: '%UPDATE_PREDICATE%'
-
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader
   Arguments:
     icon: '%SELF_SERVICE_ICON%'
