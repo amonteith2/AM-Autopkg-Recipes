@@ -1,0 +1,27 @@
+Comment: Pilfered from someone else.
+Identifier: com.github.amonteith2.Teams.jamf
+ParentRecipe: corp.sap.maccoe.pkg.MicrosoftTeams
+MinimumVersion: '2.3'
+
+Input:
+  NAME: Teams
+  CATEGORY: Productivity
+  POLICY_CATEGORY: Staff
+  POLICY_NAME: App - %NAME%
+  GROUP_NAME: TEST - am21 Macs
+  POLICY_TEMPLATE: JamfUploaderPolicyTemplate.xml
+  SELF_SERVICE_DISPLAY_NAME: Install Latest %NAME%
+  SELF_SERVICE_DESCRIPTION: The Teams service enables instant messaging, audio and video calling, rich online meetings, mobile experiences, and extensive web conferencing capabilities. In addition, Teams provides file and data collaboration and extensibility features, and integrates with Microsoft 365 and other Microsoft and partner apps.
+  SELF_SERVICE_ICON: '%NAME%.png'
+  UPDATE_PREDICATE: pkg_uploaded == False
+
+Process:
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
+  Arguments:
+    pkg_category: '%CATEGORY%'
+
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader
+  Arguments:
+    icon: '%SELF_SERVICE_ICON%'
+    policy_name: '%POLICY_NAME%'
+    policy_template: '%POLICY_TEMPLATE%'
