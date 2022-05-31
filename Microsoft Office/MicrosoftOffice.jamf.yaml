@@ -1,5 +1,5 @@
 Description: Recipe description
-Identifier: com.github.amonteith2.jamf.MicrosoftOffice
+Identifier: com.github.amonteith2.MicrosoftOffice.jamf
 ParentRecipe: com.github.rtrouton.pkg.MicrosoftOffice365Suite
 
 Input:
