@@ -1,4 +1,4 @@
-Description: Recipe description
+Description: Should just upload the Office package to Jamf.  Should.
 Identifier: com.github.amonteith2.MicrosoftOffice.jamf
 ParentRecipe: com.github.rtrouton.pkg.MicrosoftOffice365Suite
 MinimumVersion: '2.3'
@@ -9,6 +9,6 @@ Input:
   UPDATE_PREDICATE: pkg_uploaded == False
 
 Process:
-- Processor: com.github.grahampugh.jamf-upload.processors/JamfCategoryUploader
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
   Arguments:
-    category_name: '%CATEGORY%'
+    pkg_category: '%CATEGORY%'
