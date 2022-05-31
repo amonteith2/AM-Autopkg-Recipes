@@ -1,14 +1,28 @@
 Description: Recipe description
-Identifier: com.github.amonteith2.jamf.MSOffice-pkg-upload
+Identifier: com.github.amonteith2.MSOffice-pkg-upload.jamf
+ParentRecipe: com.github.rtrouton.pkg.MicrosoftOffice365Suite
+
 Input:
-  NAME: MicrosoftOffice
+  NAME: Microsoft Office
+  CATEGORY: Productivity
+  POLICY_CATEGORY: Staff - App
+  POLICY_NAME: App - %NAME%
+  GROUP_NAME: TEST - am21 Macs
+  POLICY_TEMPLATE: JamfUploaderPolicyTemplate.xml
+  SELF_SERVICE_DISPLAY_NAME: Install Latest %NAME%
+  SELF_SERVICE_DESCRIPTION: Microsoft Office is a suite of applications designed to help with productivity and completing common tasks on a computer. You can create and edit documents containing text and images, work with data in spreadsheets and databases, and create presentations and posters.
+  SELF_SERVICE_ICON: '%NAME%.png'
+  UPDATE_PREDICATE: pkg_uploaded == False
+
 MinimumVersion: '2.3'
-ParentRecipe: =MicrosoftOffice365Suite.pkg.recipe
+
 Process:
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfCategoryUploader
   Arguments:
     category_name: '%CATEGORY%'
 
-- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader
   Arguments:
-    pkg_category: '%CATEGORY%'
+    icon: '%SELF_SERVICE_ICON%'
+    policy_name: '%POLICY_NAME%'
+    policy_template: '%POLICY_TEMPLATE%'
