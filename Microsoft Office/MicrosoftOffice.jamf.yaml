@@ -10,7 +10,7 @@ Input:
   GROUP_NAME: TEST - am21 Macs
   POLICY_TEMPLATE: JamfUploaderPolicyTemplate.xml
   SELF_SERVICE_DISPLAY_NAME: Install Latest %NAME%
-  SELF_SERVICE_DESCRIPTION: Microsoft Office is a suite of applications designed to help with productivity and completing common tasks on a computer. You can create and edit documents containing text and images, work with data in spreadsheets and databases, and create presentations and posters.
+  SELF_SERVICE_DESCRIPTION: Microsoft Office is a suite of applications designed to help with productivity and completing common tasks on a computer. You can create and edit documents containing text and images, work with data in spreadsheets and create presentations.
   SELF_SERVICE_ICON: '%NAME%.png'
   UPDATE_PREDICATE: pkg_uploaded == False
 
