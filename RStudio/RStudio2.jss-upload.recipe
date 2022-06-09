@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Uses parent pkg recipe to download latest GoogleChrome and import it into the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.amonteith2.jss-upload2.RStudio</string>
+	<string>com.github.amonteith2.jss-upload.RStudio2</string>
 <key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -26,7 +26,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.amonteith2.pkg.RStudio</string>
+	<string>com.github.amonteith.pkg.RStudio</string>
 	<key>Process</key>
 	<array>
 		<dict>
