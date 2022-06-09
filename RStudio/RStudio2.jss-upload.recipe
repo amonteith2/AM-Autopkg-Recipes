@@ -15,7 +15,9 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
-		<string>RStudio/string>
+		<string>RStudio</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
