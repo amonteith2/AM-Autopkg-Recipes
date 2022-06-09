@@ -2,10 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Description</key>
+    <key>Comment</key>
+	<string>Pilfered from hansen-m</string>
+	<key>Description</key>
     <string>Downloads the latest RStudio installer package.</string>
     <key>Identifier</key>
-    <string>com.github.hansen-m.download.RStudio</string>
+    <string>com.github.amonteith2.download.RStudio</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
