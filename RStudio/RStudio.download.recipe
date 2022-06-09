@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Comment</key>
-	<string>Pilfered from hansen-m and added the AppIconExtractor processor</string>
+	<string>Pilfered from hansen-m and tried to add the AppIconExtractor processor</string>
 	<key>Description</key>
     <string>Downloads the latest RStudio installer package.</string>
     <key>Identifier</key>
@@ -60,15 +60,6 @@
                 <string>identifier "org.rstudio.RStudio" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = FYF2F5GFX4</string>
             </dict>
         </dict>
-	<dict>
-		<key>Processor</key>
-		<string>com.github.haircut.processors/AppIconExtractor</string>
-		<key>Arguments</key>
-		<dict>
-			<key>source_app</key>
-			<string>%pathname%/%NAME%.app</string>
-		</dict>
-	</dict>    
     </array>
 </dict>
 </plist>
