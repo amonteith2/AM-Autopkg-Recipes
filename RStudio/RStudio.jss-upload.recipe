@@ -18,7 +18,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.amonteith2.pkg.RStudio</string>
+	<string>com.github.amonteith2.icon.RStudio</string>
 	<key>Process</key>
 	<array>
 		<dict>
