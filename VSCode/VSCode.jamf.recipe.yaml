@@ -29,8 +29,8 @@ Process:
     replace_group: 'True'
 
 - Processor: StopProcessingIf
-   Arguments:
-     predicate: '%UPDATE_PREDICATE%'
+  Arguments:
+    predicate: '%UPDATE_PREDICATE%'
 
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader
   Arguments:
