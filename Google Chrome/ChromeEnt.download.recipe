@@ -5,7 +5,7 @@ x<?xml version="1.0" encoding="UTF-8"?>
     <key>Description</key>
     <string>Downloads latest Google Chrome disk image.</string>
     <key>Identifier</key>
-    <string>com.github.amonteith2.download.googlechrome</string>
+    <string>com.github.amonteith2.download.chromeent</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
