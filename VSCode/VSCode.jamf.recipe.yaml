@@ -15,7 +15,7 @@ Input:
   SELF_SERVICE_DISPLAY_NAME: Staff - App - %NAME%
   SELF_SERVICE_DESCRIPTION: Visual Studio Code is a source code editor which includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring.
   SELF_SERVICE_ICON: '%NAME%.png'
-  #UPDATE_PREDICATE: pkg_uploaded == False
+  UPDATE_PREDICATE: pkg_uploaded == True
 
 Process:
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
