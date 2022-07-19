@@ -22,9 +22,9 @@ Process:
   Arguments:
     pkg_category: '%CATEGORY%'
 
-Comment: - Processor: StopProcessingIf
-Comment:   Arguments:
-Comment:     predicate: '%UPDATE_PREDICATE%'
+#- Processor: StopProcessingIf
+#   Arguments:
+#     predicate: '%UPDATE_PREDICATE%'
 
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfComputerGroupUploader
   Arguments:
