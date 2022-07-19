@@ -9,10 +9,10 @@ Input:
   GROUP_NAME: Visual Studio Code-update-smart
   GROUP_TEMPLATE: JamfSmartGroupTemplateTest.xml
   TESTING_GROUP_NAME: TEST - am21 Macs
-  POLICY_CATEGORY: Staff - App - %NAME%
+  POLICY_CATEGORY: Staff - App
   POLICY_NAME: Install Latest %NAME%
   POLICY_TEMPLATE: JamfPolicyTemplate.xml
-  SELF_SERVICE_DISPLAY_NAME: Install Latest %NAME%
+  SELF_SERVICE_DISPLAY_NAME: Staff - App - %NAME%
   SELF_SERVICE_DESCRIPTION: Visual Studio Code is a source code editor which includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring.
   SELF_SERVICE_ICON: '%NAME%.png'
   UPDATE_PREDICATE: pkg_uploaded == False
