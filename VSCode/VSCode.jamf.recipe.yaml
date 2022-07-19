@@ -34,6 +34,6 @@ Process:
     policy_name: '%POLICY_NAME%'
     policy_template: '%POLICY_TEMPLATE%'
 
-- Processor: StopProcessingIf
-   Arguments:
-     predicate: '%UPDATE_PREDICATE%'
+#- Processor: StopProcessingIf
+#   Arguments:
+#     predicate: '%UPDATE_PREDICATE%'
