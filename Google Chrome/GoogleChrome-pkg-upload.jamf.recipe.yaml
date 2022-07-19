@@ -1,0 +1,17 @@
+Comment: Copied from com.github.autopkg.grahampugh-recipes.jamf.GoogleChrome-pkg-upload with the intention of personalisng it for our Jamf setup.
+Identifier: com.github.amonteith2.jamf.GoogleChrome-pkg-upload
+ParentRecipe: com.github.autopkg.pkg.googlechrome
+MinimumVersion: '2.3'
+
+Input:
+  NAME: Google Chrome
+  CATEGORY: Browsers
+
+Process:
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfCategoryUploader
+  Arguments:
+    category_name: '%CATEGORY%'
+
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
+  Arguments:
+    pkg_category: '%CATEGORY%'
