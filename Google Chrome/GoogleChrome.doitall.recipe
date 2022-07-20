@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest Google Chrome disk image.</string>
+    <string>Downloads latest Google Chrome Enterprise disk image.</string>
     <key>Identifier</key>
     <string>com.github.amonteith2.autopkg.doitall.googlechrome</string>
     <key>Input</key>
