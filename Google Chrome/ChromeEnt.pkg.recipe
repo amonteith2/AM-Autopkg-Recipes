@@ -21,8 +21,7 @@
 	<string>com.github.amonteith2.download.ChromeEnt</string>
 	<key>Process</key>
 	<array>
-		    <array>
-        <dict>
+		<dict>
             <key>Processor</key>
             <string>AppDmgVersioner</string>
             <key>Arguments</key>
