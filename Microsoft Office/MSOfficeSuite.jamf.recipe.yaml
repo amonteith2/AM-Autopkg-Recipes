@@ -7,7 +7,7 @@ Input:
   NAME: Microsoft Office
   CATEGORY: Productivity
   POLICY_CATEGORY: Staff - App
-  POLICY_NAME: Staff - App - %NAME%
+  POLICY_NAME: TEST - App - %NAME%
   POLICY_TEMPLATE: Policy-install-SelfService.xml
   SELF_SERVICE_DISPLAY_NAME: Install %NAME%
   SELF_SERVICE_DESCRIPTION: It's Office.
