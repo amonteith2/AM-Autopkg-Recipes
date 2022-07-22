@@ -28,6 +28,6 @@ Process:
     icon: '%SELF_SERVICE_ICON%'
     policy_name: '%POLICY_NAME%'
     policy_template: '%POLICY_TEMPLATE%'
-    INSTALL_BUTTON_TEXT
-    REINSTALL_BUTTON_TEXT
+    INSTALL_BUTTON_TEXT: 'Install'
+    REINSTALL_BUTTON_TEXT: 'Reinstall'
     replace_policy: 'True'
