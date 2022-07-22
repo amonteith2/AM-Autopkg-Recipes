@@ -1,6 +1,6 @@
 Description: Should just upload the Office package to Jamf.  Should.
 Identifier: com.github.amonteith2.MicrosoftOffice.jamf
-ParentRecipe: com.github.rtrouton.pkg.MicrosoftOffice365Suite
+ParentRecipe: com.github.rtrouton.pkg.MicrosoftOffice365BusinessProSuite
 MinimumVersion: '2.3'
 
 Input:
