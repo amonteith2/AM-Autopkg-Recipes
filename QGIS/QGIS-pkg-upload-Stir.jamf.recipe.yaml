@@ -1,0 +1,40 @@
+Comment: Copied from com.github.autopkg.grahampugh-recipes.jamf.GoogleChrome-pkg-upload with the intention of personalisng it for our Jamf setup.
+Identifier: com.github.amonteith2.jamf.QGIS-pkg-upload
+ParentRecipe: com.github.amonteith2.pkg.qgis.recipe
+MinimumVersion: '2.3'
+
+Input:
+  NAME: QGIS
+  CATEGORY: Productivity
+  GROUP_NAME: Smart-update-%NAME%
+  GROUP_TEMPLATE: JamfSmartGroupTemplateTest.xml
+  TESTING_GROUP_NAME: TEST - am21 Macs
+  POLICY_CATEGORY: Staff - App
+  POLICY_NAME: Install Latest %NAME%
+  POLICY_TEMPLATE: JamfPolicyTemplate.xml
+  SELF_SERVICE_DISPLAY_NAME: Staff - App - %NAME%
+  SELF_SERVICE_DESCRIPTION: QGIS is a user friendly Open Source Geographic Information System (GIS) licensed under the GNU General Public License. QGIS is an official project of the Open Source Geospatial Foundation (OSGeo). It is a large application and will take some time to download.
+  SELF_SERVICE_ICON: '%NAME%.png'
+  UPDATE_PREDICATE: pkg_uploaded == True
+
+Process:
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
+  Arguments:
+    pkg_category: '%CATEGORY%'
+
+#- Processor: StopProcessingIf
+#  Arguments:
+#    predicate: '%UPDATE_PREDICATE%'
+
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfComputerGroupUploader
+  Arguments:
+    computergroup_name: '%GROUP_NAME%'
+    computergroup_template: '%GROUP_TEMPLATE%'
+    replace_group: 'True'
+
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader
+  Arguments:
+    icon: '%SELF_SERVICE_ICON%'
+    policy_name: '%POLICY_NAME%'
+    policy_template: '%POLICY_TEMPLATE%'
+    replace_policy: 'True'
