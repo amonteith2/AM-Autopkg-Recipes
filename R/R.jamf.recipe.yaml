@@ -12,7 +12,7 @@ Input:
   POLICY_CATEGORY: Staff - App
   POLICY_NAME: Install Latest %NAME%
   POLICY_TEMPLATE: JamfPolicyTemplate.xml
-  SELF_SERVICE_DISPLAY_NAME: Staff - App - %NAME%
+  SELF_SERVICE_DISPLAY_NAME: Install %NAME%
   SELF_SERVICE_DESCRIPTION: R is a system for statistical computation and graphics. It consists of a language plus a run-time environment with graphics, a debugger, access to certain system functions, and the ability to run programs stored in script files.
   SELF_SERVICE_ICON: '%NAME%.png'
   UPDATE_PREDICATE: pkg_uploaded == True
