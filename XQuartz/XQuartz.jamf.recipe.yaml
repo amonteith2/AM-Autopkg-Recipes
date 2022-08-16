@@ -1,6 +1,6 @@
 Comment: 
 Identifier: com.github.amonteith2.jamf.XQuartz
-ParentRecipe: com.github.scriptingosx.pkg.XQuartz
+ParentRecipe: com.github.amonteith2.pkg.XQuartz
 MinimumVersion: '2.3'
 
 Input:
