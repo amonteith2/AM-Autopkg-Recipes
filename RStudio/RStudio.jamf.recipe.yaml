@@ -1,6 +1,6 @@
-Comment: Shamelessly pilfered from com.github.autopkg.grahampugh-recipes.jamf.VisualStudioCode and altered to personalise for our institution
-Identifier: com.github.amonteith2.jamf.R
-ParentRecipe: com.github.grahampugh.recipes.pkg.R
+Comment: 
+Identifier: com.github.amonteith2.jamf.RStudio
+ParentRecipe: ccom.github.amonteith2.pkg.RStudio
 MinimumVersion: '2.3'
 
 Input:
