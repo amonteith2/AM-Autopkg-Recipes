@@ -1,6 +1,6 @@
 Comment: 
 Identifier: com.github.amonteith2.jamf.RStudio
-ParentRecipe: ccom.github.amonteith2.pkg.RStudio
+ParentRecipe: com.github.amonteith2.pkg.RStudio
 MinimumVersion: '2.3'
 
 Input:
