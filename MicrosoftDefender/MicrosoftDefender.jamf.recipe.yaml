@@ -1,9 +1,10 @@
 Description: Adds the newly-downloaded installer for MS Defender ATP to Jamf and includes it in the policy that installs it on newly-enrolled devices in place of the old version. 
 Identifier: com.github.amonteith2.jamf.microsoftdefender
+ParentRecipe: com.github.amonteith2.pkg.microsoftdefender
+
 Input:
   NAME: Microsoft Defender
   CATEGORY: Staff
-  ParentRecipe: com.github.amonteith2.pkg.microsoftdefender
   UPDATE_PREDICATE: pkg_uploaded == True
 
 Process:
