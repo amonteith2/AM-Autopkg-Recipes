@@ -4,6 +4,7 @@ Input:
   NAME: Microsoft Defender
   CATEGORY: Staff
   ParentRecipe: com.github.amonteith2.pkg.microsoftdefender
+  UPDATE_PREDICATE: pkg_uploaded == True
 
 Process:
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
