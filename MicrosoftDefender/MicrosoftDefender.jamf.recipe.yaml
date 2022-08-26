@@ -1,5 +1,5 @@
 Description: Adds the newly-downloaded installer for MS Defender ATP to Jamf and includes it in the policy that installs it on newly-enrolled devices in place of the old version. 
-Identifier: com.github.amonteith2.jamf-uploader.microsoftdefender
+Identifier: com.github.amonteith2.jamf.microsoftdefender
 Input:
   NAME: Microsoft Defender
   CATEGORY: Staff
