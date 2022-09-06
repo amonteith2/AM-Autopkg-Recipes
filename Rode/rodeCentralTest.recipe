@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>RODECentral</string>
         <key>DOWNLOAD_URL</key>
-        <string>https://www.rode.com/wirelessgo/get_download?os=mac</string>
+        <string>https://edge.rode.com/zip/page/1873/modules/4782</string>
     </dict>
     <key>Process</key>
     <array>
