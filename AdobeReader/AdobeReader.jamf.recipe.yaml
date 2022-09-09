@@ -1,6 +1,6 @@
 Comment: 
 Identifier: com.github.amonteith2.jamf.AdobeReader
-ParentRecipe: com.github.autopkg.pkg.AdobeReader
+ParentRecipe: com.github.autopkg.pkg.AdobeReaderDC
 MinimumVersion: '2.3'
 
 Input:
