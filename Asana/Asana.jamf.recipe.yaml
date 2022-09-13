@@ -12,8 +12,8 @@ Input:
   #GROUP_NAME: 'Architecture - %ARCHITECTURE%'
   GROUP_TEMPLATE: 'JamfSmartGroupTemplateTest.xml'
   POLICY_CATEGORY: Productivity
-  POLICY_TEMPLATE: PolicyTemplate.xml
-  POLICY_NAME: 'Install Latest %NAME%'
+  POLICY_TEMPLATE: Policy_Install_SelfService_incVersion.xml
+  POLICY_NAME: 'App - %NAME%'
   POLICY_RUN_COMMAND: ' '
   SELF_SERVICE_DISPLAY_NAME: 'Install Latest %NAME%'
   SELF_SERVICE_DESCRIPTION: Install the latest version of Asana.
