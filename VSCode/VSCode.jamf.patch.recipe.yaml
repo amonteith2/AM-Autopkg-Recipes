@@ -11,7 +11,7 @@ Input:
   TESTING_GROUP_NAME: TEST - am21 Macs
   PATCH_NAME: '%NAME%'
   PATCH_SOFTWARE_TITLE: Microsoft Visual Studio Code
-  PATCH_TEMPLATE: PatchTemplate-selfservice.xml
+  PATCH_TEMPLATE: 'PatchTemplate-selfservice.xml'
   POLICY_NAME: Visual Studio Code Patch Policy
   PATCH_ENABLED: 'true'
   PATCH_UNKNOWN: 'true'
