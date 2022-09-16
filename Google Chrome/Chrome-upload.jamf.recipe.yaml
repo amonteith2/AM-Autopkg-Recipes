@@ -15,6 +15,7 @@ Input:
   SELF_SERVICE_ICON: '%NAME%.png'
   INSTALL_BUTTON_TEXT: 'Install v'
   REINSTALL_BUTTON_TEXT:  'Install v'
+  POLICY_RUN_COMMAND: Install
   
   UPDATE_PREDICATE: pkg_uploaded == True
 
