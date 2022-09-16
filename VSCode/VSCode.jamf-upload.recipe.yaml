@@ -4,10 +4,10 @@ ParentRecipe: com.github.killahquam.pkg.visualstudioscode
 MinimumVersion: '2.3'
 
 Input:
-  NAME: Visual Studio Code
-  CATEGORY: Development
-  POLICY_CATEGORY: Staff - App
-  POLICY_NAME: App - %NAME%
+  NAME: 'Visual Studio Code'
+  CATEGORY: 'Development'
+  POLICY_CATEGORY: 'Staff - App'
+  POLICY_NAME: 'App - '%NAME%
   POLICY_TEMPLATE: Policy_Install_SelfService_incVersion.xml
   GROUP_NAME: 'IS Support Staff Macs'
   SELF_SERVICE_DISPLAY_NAME: %NAME%
