@@ -10,7 +10,7 @@ Input:
   POLICY_NAME: 'App - %NAME%'
   POLICY_TEMPLATE: Policy_Install_SelfService_incVersion.xml
   GROUP_NAME: 'IS Support Staff Macs'
-  SELF_SERVICE_DISPLAY_NAME: %NAME%
+  SELF_SERVICE_DISPLAY_NAME: '%NAME%'
   SELF_SERVICE_DESCRIPTION: Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.
   SELF_SERVICE_ICON: '%NAME%.png'
   INSTALL_BUTTON_TEXT: 'Install'
