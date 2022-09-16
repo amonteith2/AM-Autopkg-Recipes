@@ -4,7 +4,7 @@ MinimumVersion: '2.3'
 
 Input:
   NAME: Chrome
-  SOFTWARE_TITLE: Chrome
+  SOFTWARE_TITLE: Google Chrome
   CATEGORY: Internet
   GROUP_NAME: Smart-update-%NAME%
   GROUP_TEMPLATE: JamfSmartGroupTemplateTest.xml
