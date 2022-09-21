@@ -32,6 +32,9 @@
     <user_interaction>
         <install_button_text>Update</install_button_text>
         <self_service_description/>
+        <self_service_icon>
+            <id>%patch_icon_id%</id>
+        </self_service_icon>
         <notifications>
             <notification_enabled>true</notification_enabled>
             <notification_type>Self Service and Notification Center</notification_type>
