@@ -9,10 +9,10 @@ Input:
   GROUP_NAME: Smart-update-%NAME%
   GROUP_TEMPLATE: JamfSmartGroupTemplateTest.xml
   TESTING_GROUP_NAME: TEST - am21 Macs  
-  PATCH_NAME: '%NAME%'
+  PATCH_NAME: '%NAME% Patch Policy'
   PATCH_SOFTWARE_TITLE: '%NAME%'
   PATCH_TEMPLATE: 'PatchTemplate-selfservice.xml'
-  POLICY_NAME: '%NAME% Patch Policy'
+  POLICY_NAME: 'Chrome enterprise for staff'
   PATCH_ENABLED: 'true'
   PATCH_UNKNOWN: 'true'
   PATCH_GRACE: '20'
