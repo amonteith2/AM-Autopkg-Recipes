@@ -9,7 +9,7 @@ Input:
   GROUP_NAME: Smart-update-Visual Studio Code
   GROUP_TEMPLATE: JamfSmartGroupTemplateTest.xml
   TESTING_GROUP_NAME: TEST - am21 Macs
-  PATCH_NAME: '%NAME%'
+  PATCH_NAME: '%NAME% Patch Policy'
   PATCH_SOFTWARE_TITLE: Microsoft Visual Studio Code
   PATCH_TEMPLATE: 'PatchTemplate-selfservice.xml'
   POLICY_NAME: Visual Studio Code Patch Policy
@@ -31,3 +31,4 @@ Process:
     patch_template: '%PATCH_TEMPLATE%'
     patch_softwaretitle: '%PATCH_SOFTWARE_TITLE%'
     patch_icon_policy_name: '%PATCH_ICON_POLICY_NAME%'
+    replace_patch: True
