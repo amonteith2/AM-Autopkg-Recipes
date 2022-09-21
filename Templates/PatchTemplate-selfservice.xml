@@ -33,7 +33,7 @@
         <install_button_text>Update</install_button_text>
         <self_service_description/>
         <self_service_icon>
-            <id>%patch_icon_id%</id>
+            <id>%NAME%.png</id>
         </self_service_icon>
         <notifications>
             <notification_enabled>true</notification_enabled>
