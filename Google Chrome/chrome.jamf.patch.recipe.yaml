@@ -17,6 +17,7 @@ Input:
   PATCH_UNKNOWN: 'true'
   PATCH_GRACE: '20'
   PATCH_ICON_POLICY_NAME: '%NAME%'
+  PATCH_ICON_ID: '979'
 
 Process:
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfComputerGroupUploader
