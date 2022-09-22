@@ -16,8 +16,7 @@ Input:
   PATCH_ENABLED: 'true'
   PATCH_UNKNOWN: 'true'
   PATCH_GRACE: '20'
-  PATCH_ICON_POLICY_NAME: '%NAME%'
-  PATCH_ICON_ID: '979'
+  PATCH_ICON_POLICY_NAME: 'Chrome enterprise for staff'
 
 Process:
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfComputerGroupUploader
