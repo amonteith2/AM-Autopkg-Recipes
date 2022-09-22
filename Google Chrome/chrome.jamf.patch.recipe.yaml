@@ -12,7 +12,7 @@ Input:
   PATCH_NAME: '%NAME% Patch Policy'
   PATCH_SOFTWARE_TITLE: '%NAME%'
   PATCH_TEMPLATE: 'PatchTemplate-selfservice.xml'
-  POLICY_NAME: 'Chrome enterprise for staff'
+  POLICY_NAME: '%NAME% Patch Policy'
   PATCH_ENABLED: 'true'
   PATCH_UNKNOWN: 'true'
   PATCH_GRACE: '20'
