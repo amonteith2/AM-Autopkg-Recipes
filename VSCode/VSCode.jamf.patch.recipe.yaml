@@ -1,5 +1,5 @@
 Identifier: com.github.amonteith2.jamf.VisualStudioCode-patch
-ParentRecipe: com.github.amonteith2.jamf.VSCode-upload-editpolicy
+ParentRecipe: com.github.amonteith2.pkg.visualstudioscode
 MinimumVersion: '2.3'
 
 Input:
