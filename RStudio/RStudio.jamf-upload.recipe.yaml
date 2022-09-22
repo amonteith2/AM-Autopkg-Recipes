@@ -1,13 +1,13 @@
 Coment: Uploads a pckage to Jamf and creates a policy to deploy the software to a specified group in Self Service.
 Identifier: com.github.amonteith2.jamf.RStudio-upload-editpolicy
-ParentRecipe: <IDENTIFIER OF PARENT RECIPE>
+ParentRecipe: com.github.amonteith2.pkg.RStudio
 MinimumVersion: '2.3'
 
 Input:
   NAME: RStudio
   CATEGORY: Statistics
   POLICY_CATEGORY: Staff - App
-  POLICY_NAME: <NAME OF POLICY> 'App - %NAME%'
+  POLICY_NAME: 'App - %NAME%'
   POLICY_TEMPLATE: Policy_Install_SelfService_incVersion.xml
   GROUP_NAME: 'Staff Macs - All'
   SELF_SERVICE_DISPLAY_NAME: Install latest %NAME%
