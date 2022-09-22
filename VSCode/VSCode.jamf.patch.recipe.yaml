@@ -16,7 +16,7 @@ Input:
   PATCH_ENABLED: 'true'
   PATCH_UNKNOWN: 'true'
   PATCH_GRACE: '20'
-  PATCH_ICON_POLICY_NAME: %POLICY_NAME%
+  PATCH_ICON_POLICY_NAME: '%POLICY_NAME%'
 
 Process:
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfComputerGroupUploader
