@@ -6,11 +6,11 @@ MinimumVersion: '2.3'
 Input:
   NAME: RStudio
   CATEGORY: Statistics
-  POLICY_CATEGORY: Staff - App
+  POLICY_CATEGORY: 'Staff - App'
   POLICY_NAME: 'App - %NAME%'
-  POLICY_TEMPLATE: Policy_Install_SelfService_incVersion.xml
+  POLICY_TEMPLATE: Policy_Install_Sel-fService_incVersion.xml
   GROUP_NAME: 'Staff Macs - All'
-  SELF_SERVICE_DISPLAY_NAME: Install latest %NAME%
+  SELF_SERVICE_DISPLAY_NAME: 'Install latest %NAME%'
   SELF_SERVICE_DESCRIPTION: The RStudio IDE is a set of integrated tools designed to help you be more productive with R and Python. It includes a console, syntax-highlighting editor that supports direct code execution, and a variety of robust tools for plotting, viewing history, debugging and managing your workspace.
   SELF_SERVICE_ICON: '%NAME%.png'
   INSTALL_BUTTON_TEXT: 'Install v'
