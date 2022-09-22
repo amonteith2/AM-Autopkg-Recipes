@@ -6,7 +6,7 @@ Input:
   NAME: Google Chrome
   SOFTWARE_TITLE: Google Chrome
   CATEGORY: Internet
-  GROUP_NAME: Smart-update-%NAME%
+  GROUP_NAME: Smart-update-Chrome
   GROUP_TEMPLATE: JamfSmartGroupTemplateTest.xml
   TESTING_GROUP_NAME: TEST - am21 Macs  
   PATCH_NAME: '%NAME% Patch Policy'
