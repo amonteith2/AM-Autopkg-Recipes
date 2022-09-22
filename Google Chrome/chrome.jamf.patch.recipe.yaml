@@ -1,5 +1,5 @@
 Identifier: com.github.amonteith2.jamf.GoogleChrome-patch
-ParentRecipe: com.github.amonteith2.jamf.GoogleChrome-upload-editpolicy
+ParentRecipe: com.github.amonteith2.autopkg.doitall.googlechrome
 MinimumVersion: '2.3'
 
 Input:
