@@ -12,7 +12,7 @@ Input:
   PATCH_NAME: '%NAME% Patch Policy'
   PATCH_SOFTWARE_TITLE: Microsoft Visual Studio Code
   PATCH_TEMPLATE: 'PatchTemplate-selfservice.xml'
-  POLICY_NAME: 'App - %NAME%'
+  # POLICY_NAME: 'App - %NAME%'
   PATCH_ENABLED: 'true'
   PATCH_UNKNOWN: 'true'
   PATCH_GRACE: '20'
