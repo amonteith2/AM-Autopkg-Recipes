@@ -19,6 +19,10 @@ Input:
   PATCH_ICON_POLICY_NAME: '%POLICY_NAME%'
 
 Process:
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
+  Arguments:
+    pkg_category: '%CATEGORY%'
+
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfComputerGroupUploader
   Arguments:
     computergroup_name: '%GROUP_NAME%'
@@ -31,4 +35,4 @@ Process:
     patch_template: '%PATCH_TEMPLATE%'
     patch_softwaretitle: '%PATCH_SOFTWARE_TITLE%'
     patch_icon_policy_name: '%PATCH_ICON_POLICY_NAME%'
-    replace_patch: True
+    replace_patch: 'True'
