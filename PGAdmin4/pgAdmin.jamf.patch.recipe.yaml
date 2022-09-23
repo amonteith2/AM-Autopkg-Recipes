@@ -4,7 +4,7 @@ MinimumVersion: '2.3'
 
 Input:
   NAME: 'pgAdmin'
-  SOFTWARE_TITLE: '%NAME%'
+  SOFTWARE_TITLE: pgAdmin
   CATEGORY: Development
   GROUP_NAME: 'Smart-update-%NAME%'
   GROUP_TEMPLATE: JamfSmartGroupTemplateTest.xml
