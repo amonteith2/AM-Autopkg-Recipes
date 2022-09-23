@@ -17,8 +17,14 @@ Input:
   PATCH_UNKNOWN: 'true'
   PATCH_GRACE: '20'
   PATCH_ICON_POLICY_NAME: 'Chrome enterprise for staff'
+  UPDATE_PREDICATE: pkg_uploaded == True
 
 Process:
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
+  Arguments:
+    pkg_category: '%CATEGORY%'
+
+
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfComputerGroupUploader
   Arguments:
     computergroup_name: '%GROUP_NAME%'
