@@ -3,7 +3,7 @@ ParentRecipe: com.github.amonteith2.pkg.pgadmin
 MinimumVersion: '2.3'
 
 Input:
-  NAME: 'pgAdmin'
+  NAME: pgAdmin
   SOFTWARE_TITLE: pgAdmin
   CATEGORY: Development
   GROUP_NAME: 'Smart-update-%NAME%'
