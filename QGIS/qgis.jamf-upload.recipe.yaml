@@ -3,8 +3,8 @@ ParentRecipe: com.github.amonteith2.pkg.qgis.recipe
 MinimumVersion: '2.3'
 
 Input:
-NAME: 'QGIS'
-  CATEGORY: 'Development'
+  NAME: QGIS
+  CATEGORY: Productivity
   POLICY_CATEGORY: 'Staff - App'
   POLICY_NAME: 'App - %NAME%'
   POLICY_TEMPLATE: Policy_Install_SelfService_incVersion.xml
