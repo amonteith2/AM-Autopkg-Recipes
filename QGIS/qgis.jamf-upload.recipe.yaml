@@ -1,4 +1,3 @@
-Comment: Uploads a pckage to Jamf and creates a policy to deploy the software to a specified group in Self Service.
 Identifier: com.github.amonteith2.jamf.qgis-upload-editpolicy
 ParentRecipe: com.github.amonteith2.pkg.qgis.recipe
 MinimumVersion: '2.3'
