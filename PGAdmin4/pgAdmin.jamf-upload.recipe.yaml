@@ -1,6 +1,6 @@
 Comment: Uploads a pckage to Jamf and creates a policy to deploy the software to a specified group in Self Service.
 Identifier: com.github.amonteith2.jamf.pgadmin-upload-editpolicy
-ParentRecipe: com.github.amonteith2.pkg.pgadmin
+ParentRecipe: com.github.amonteith2.pkg.pgAdmin4
 MinimumVersion: '2.3'
 
 Input:
