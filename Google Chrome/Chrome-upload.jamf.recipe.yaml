@@ -13,8 +13,8 @@ Input:
   SELF_SERVICE_DISPLAY_NAME: Install latest %NAME%
   SELF_SERVICE_DESCRIPTION: Chrome updates automatically to run smooth & secure with the latest features.
   SELF_SERVICE_ICON: '%NAME%.png'
-  INSTALL_BUTTON_TEXT: 'Install v'
-  REINSTALL_BUTTON_TEXT:  'Install v'
+  INSTALL_BUTTON_TEXT: 'Install'
+  REINSTALL_BUTTON_TEXT:  'Install'
   POLICY_RUN_COMMAND: Install
   
   UPDATE_PREDICATE: pkg_uploaded == True
