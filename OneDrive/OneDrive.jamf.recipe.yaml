@@ -34,14 +34,3 @@ Process:
     policy_name: '%POLICY_NAME%'
     policy_template: '%POLICY_TEMPLATE%'
     replace_policy: 'True'
-
-Process:
-- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
-  Arguments:
-    pkg_category: '%CATEGORY%'
-
-- Processor: com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader
-  Arguments:
-    icon: '%SELF_SERVICE_ICON%'
-    policy_name: '%POLICY_NAME%'
-    policy_template: '%POLICY_TEMPLATE%'
