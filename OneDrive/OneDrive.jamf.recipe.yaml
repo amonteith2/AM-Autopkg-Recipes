@@ -1,6 +1,6 @@
 Comment: Pilfered from someone else.
 Identifier: com.github.amonteith2.OneDrive.jamf
-ParentRecipe: corp.sap.maccoe.pkg.microsoftuniversalonedrive
+ParentRecipe: com.github.rtrouton.pkg.microsoftuniversalonedrive
 MinimumVersion: '2.3'
 
 Input:
