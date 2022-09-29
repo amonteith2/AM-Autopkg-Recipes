@@ -5,17 +5,17 @@ MinimumVersion: '2.3'
 
 Input:
   NAME: Teams
-  CATEGORY: Communications
-  POLICY_CATEGORY: Internet
+  CATEGORY: 'Communications'
+  POLICY_CATEGORY: 'Internet'
   POLICY_NAME: 'App - %NAME%'
   POLICY_TEMPLATE: Policy_Install_SelfService_incVersion.xml
-  GROUP_NAME: Staf Macs - All
+  GROUP_NAME: 'Staff Macs - All'
   SELF_SERVICE_DISPLAY_NAME: '%NAME%'
   SELF_SERVICE_DESCRIPTION: 'App for team working and communication'
   SELF_SERVICE_ICON: '%NAME%.png'
   INSTALL_BUTTON_TEXT: 'Install'
   REINSTALL_BUTTON_TEXT:  'Install'
-  POLICY_RUN_COMMAND: Install
+  POLICY_RUN_COMMAND: 'Install'
   
   UPDATE_PREDICATE: pkg_uploaded == True
 
