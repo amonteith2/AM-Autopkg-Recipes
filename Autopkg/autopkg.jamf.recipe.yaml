@@ -1,0 +1,35 @@
+Identifier: com.github.amonteith2.Autopkg.jamf
+ParentRecipe: com.github.autopkg.download.AutoPkg-Release
+MinimumVersion: '2.3'
+
+Input:
+  NAME: Autopkg
+  CATEGORY: 'Admin'
+  POLICY_CATEGORY: 'Admin'
+  POLICY_NAME: 'App - %NAME%'
+  POLICY_TEMPLATE: Policy_Install_SelfService_incVersion.xml
+  GROUP_NAME: 'Staff Macs - All'
+  SELF_SERVICE_DISPLAY_NAME: '%NAME%'
+  SELF_SERVICE_DESCRIPTION: 'Automating packaging and software distribution on macOS.'
+  SELF_SERVICE_ICON: '%NAME%.png'
+  INSTALL_BUTTON_TEXT: 'Install'
+  REINSTALL_BUTTON_TEXT:  'Install'
+  POLICY_RUN_COMMAND: 'Install'
+  
+  UPDATE_PREDICATE: pkg_uploaded == True
+
+Process:
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
+  Arguments:
+    pkg_category: '%CATEGORY%'
+
+#- Processor: StopProcessingIf
+#  Arguments:
+#    predicate: '%UPDATE_PREDICATE%'
+
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader
+  Arguments:
+    icon: '%SELF_SERVICE_ICON%'
+    policy_name: '%POLICY_NAME%'
+    policy_template: '%POLICY_TEMPLATE%'
+    replace_policy: 'True'
