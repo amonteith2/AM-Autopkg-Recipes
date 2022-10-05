@@ -5,8 +5,8 @@ MinimumVersion: '2.3'
 
 Input:
   NAME: Teams
-  CATEGORY: 'Communications'
-  POLICY_CATEGORY: 'Internet'
+  CATEGORY: 'Productivity'
+  POLICY_CATEGORY: 'Staff - App'
   POLICY_NAME: 'App - %NAME%'
   POLICY_TEMPLATE: Policy_Install_SelfService_incVersion.xml
   GROUP_NAME: 'Staff Macs - All'
