@@ -4,7 +4,7 @@ ParentRecipe: com.github.amonteith2.autopkg.doitall.googlechrome
 MinimumVersion: '2.3'
 
 Input:
-  NAME: Chrome
+  NAME: Google Chrome
   CATEGORY: Internet
   POLICY_CATEGORY: Staff - App
   POLICY_NAME: Chrome enterprise for staff
