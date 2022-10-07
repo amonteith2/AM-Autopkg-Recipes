@@ -8,7 +8,7 @@ Input:
   CATEGORY: Development
   GROUP_NAME: 'Smart-update-%NAME%'
   GROUP_TEMPLATE: JamfSmartGroupTemplateTest.xml
-  TESTING_GROUP_NAME: TEST - am21 Macs
+  TESTING_GROUP_NAME: 'Staff Macs - All'
   PATCH_NAME: '%NAME% Patch Policy'
   PATCH_SOFTWARE_TITLE: QGIS
   PATCH_TEMPLATE: 'PatchTemplate-selfservice.xml'
