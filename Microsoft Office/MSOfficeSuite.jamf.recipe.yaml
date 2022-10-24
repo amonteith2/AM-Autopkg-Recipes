@@ -1,6 +1,6 @@
 Comment: Shamelessly pilfered from com.github.autopkg.grahampugh-recipes.jamf.VisualStudioCode and altered to personalise for our institution
 Identifier: com.github.amonteith2.jamf.MicrosoftOfficeBuisnessPro
-ParentRecipe: com.github.rtrouton.pkg.MicrosoftOffice365BusinessProSuite
+ParentRecipe: com.github.amonteith2.pkg.MicrosoftOffice365BusinessProSuite
 MinimumVersion: '2.3'
 
 Input:
