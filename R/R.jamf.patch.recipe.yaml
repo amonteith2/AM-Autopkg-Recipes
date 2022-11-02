@@ -1,5 +1,5 @@
-Identifier: com.github.amonteith2.jamf.qgis-patch
-ParentRecipe: com.github.amonteith2.pkg.qgis.recipe
+Identifier: com.github.amonteith2.jamf.R-patch
+ParentRecipe: com.github.grahampugh.recipes.pkg.R
 MinimumVersion: '2.3'
 
 Input:
