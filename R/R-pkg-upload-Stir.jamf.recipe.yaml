@@ -19,7 +19,7 @@ Input:
 Process:
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
   Arguments:
-    pkg_category: %CATEGORY%
+    pkg_category: '%CATEGORY%'
 
 #- Processor: StopProcessingIf
 #  Arguments:
