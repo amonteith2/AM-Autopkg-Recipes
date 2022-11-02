@@ -9,7 +9,7 @@
         <patch_unknown>true</patch_unknown>
     </general>
     <scope>
-        <all_computers>true</all_computers>
+        <all_computers>false</all_computers>
         <computers/>
         <computer_groups/>
         <users/>
