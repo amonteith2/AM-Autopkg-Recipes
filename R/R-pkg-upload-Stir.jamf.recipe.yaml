@@ -12,7 +12,7 @@ Input:
   POLICY_CATEGORY: Staff - App
   POLICY_NAME: 'App - %NAME%'
   POLICY_TEMPLATE: JamfPolicyTemplate.xml
-  SELF_SERVICE_DISPLAY_NAME: 'Install latest %NAME%''
+  SELF_SERVICE_DISPLAY_NAME: 'Install latest %NAME%'
   SELF_SERVICE_DESCRIPTION: R is a free software environment for statistical computing and graphics.
   SELF_SERVICE_ICON: %NAME%.png
   UPDATE_PREDICATE: pkg_uploaded == True
