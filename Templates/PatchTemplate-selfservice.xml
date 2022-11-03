@@ -12,7 +12,7 @@
         <all_computers>false</all_computers>
         <computers/>
         <computer_group>
-            <name>%TESTING_GROUP_NAME%</name>
+            <name>%GROUP_NAME%</name>
         </computer_group>
         <users/>
         <buildings/>
