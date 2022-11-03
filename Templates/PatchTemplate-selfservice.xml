@@ -11,7 +11,7 @@
     <scope>
         <all_computers>false</all_computers>
         <computers/>
-        <computer_groups/>
+        <computer_groups>%TESTING_GROUP_NAME%<computer_groups/>
         <users/>
         <buildings/>
         <departments/>
