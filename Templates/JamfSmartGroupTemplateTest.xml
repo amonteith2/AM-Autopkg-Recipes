@@ -1,5 +1,5 @@
 <computer_group>
-    <name>%GROUP_NAME%</name>
+    <name>%PATCH_TARGET_GROUP_NAME%</name>
     <is_smart>true</is_smart>
     <criteria>
         <criterion>
