@@ -13,7 +13,7 @@
         <computers/>
         <computer_groups>
         <computer_group>
-            <name>%GROUP_NAME%</name>
+            <name>%PATCH_TARGET_GROUP_NAME%</name>
         </computer_group>
         </computer_groups>        
         <users/>
