@@ -6,7 +6,7 @@ Input:
   NAME: QGIS
   SOFTWARE_TITLE: QGIS
   CATEGORY: Development
-  GROUP_NAME: 'Smart-update-%NAME%'
+  PATCH_TARGET_GROUP_NAME: 'Smart-update-%NAME%'
   GROUP_TEMPLATE: JamfSmartGroupTemplateTest.xml
   TESTING_GROUP_NAME: 'Staff Macs - All'
   PATCH_NAME: '%NAME% Patch Policy'
