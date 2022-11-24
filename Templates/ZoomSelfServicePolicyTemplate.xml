@@ -29,16 +29,7 @@
     <self_service_display_name>%NAME%</self_service_display_name>
     <install_button_text>Install</install_button_text>
     <reinstall_button_text>Reinstall</reinstall_button_text>
-    <self_service_description>Installs Zoom and is set to use the Universities accounts for authentication.&#13;
-&#13;
-Updates should happen automatically without user intervention required.&#13;
-&#13;
-A Configuration profile should be added to your device to allow screen sharing.  You will then need to allow this in System Preferences.&#13;
-&#13;
--Open System Preferences&#13;
--Select Security &amp; Privacy&#13;
--Scroll down the list on the left-hand side till you get to Screen Recording&#13;
--Tick the box for zoom.us.</self_service_description>
+    <self_service_description>%SELF_SERVICE_DESCRIPTION%</self_service_description>
     <force_users_to_view_description>true</force_users_to_view_description>
     <self_service_categories>
       <category>
@@ -53,10 +44,10 @@ A Configuration profile should be added to your device to allow screen sharing. 
         <name>%pkg_name%</name>
       </package>
       <package>
-        <name>Zoom_LaunchDaemonAndHelperTool_v5.5.pkg</name>
+        <name>%INSTALL_PACKAGE_2%</name>
       </package>
       <package>
-        <name>ZoomPrefs.dmg</name>
+        <name>%INSTALL_PACKAGE_3%</name>
       </package>
     </packages>
   </package_configuration>
