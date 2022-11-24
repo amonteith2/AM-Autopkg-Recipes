@@ -10,6 +10,7 @@ Input:
   POLICY_NAME: 'App - %NAME%'
   POLICY_TEMPLATE: ZoomSelfServicePolicyTemplate.xml
   GROUP_NAME: 'TEST Macs - am21'
+  EXCLUSION_GROUP: Site - Pathfoot Teaching
   SELF_SERVICE_DISPLAY_NAME: '%NAME%'
   SELF_SERVICE_ICON: '%NAME%.png'
   INSTALL_BUTTON_TEXT: 'Install'
