@@ -18,7 +18,7 @@
     <computers/>
     <computer_groups>
       <computer_group>
-        <name>Staff Macs - All</name>
+        <name>%GROUP_NAME%</name>
       </computer_group>
     </computer_groups>
     <exclusions>
