@@ -1,0 +1,34 @@
+Comment: Uploads a pckage to Jamf and creates a policy to deploy the software to a specified group in Self Service.
+Identifier: com.github.amonteith2.jamf.zoom-upload-policy
+ParentRecipe: com.github.amonteith2.zoom.us.pkg
+MinimumVersion: '2.3'
+
+Input:
+  NAME: 'Zoom'
+  CATEGORY: 'Staff - App'
+  POLICY_CATEGORY: 'Staff - App'
+  POLICY_NAME: 'App - %NAME%'
+  POLICY_TEMPLATE: ZoomSelfServicePolicyTemplate.xml
+  GROUP_NAME: 'Staff Macs - All'
+  SELF_SERVICE_DISPLAY_NAME: '%NAME%'
+  SELF_SERVICE_ICON: '%NAME%.png'
+  INSTALL_BUTTON_TEXT: 'Install'
+  REINSTALL_BUTTON_TEXT:  'Install'
+  
+  UPDATE_PREDICATE: pkg_uploaded == True
+
+Process:
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
+  Arguments:
+    pkg_category: '%CATEGORY%'
+
+#- Processor: StopProcessingIf
+#  Arguments:
+#    predicate: '%UPDATE_PREDICATE%'
+
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader
+  Arguments:
+    icon: '%SELF_SERVICE_ICON%'
+    policy_name: '%POLICY_NAME%'
+    policy_template: '%POLICY_TEMPLATE%'
+    replace_policy: 'True'
