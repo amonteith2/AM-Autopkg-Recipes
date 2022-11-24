@@ -19,7 +19,7 @@
     <exclusions>
       <computer_groups>
         <computer_group>
-          <name>Site - Pathfoot Teaching</name>
+          <name>%EXCLUSION_GROUP%</name>
         </computer_group>
       </computer_groups>
     </exclusions>
