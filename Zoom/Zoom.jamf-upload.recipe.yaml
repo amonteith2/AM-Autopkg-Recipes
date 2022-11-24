@@ -9,7 +9,7 @@ Input:
   POLICY_CATEGORY: 'Staff - App'
   POLICY_NAME: 'App - %NAME%'
   POLICY_TEMPLATE: ZoomSelfServicePolicyTemplate.xml
-  GROUP_NAME: 'Staff Macs - All'
+  GROUP_NAME: 'TEST Macs - am21'
   SELF_SERVICE_DISPLAY_NAME: '%NAME%'
   SELF_SERVICE_ICON: '%NAME%.png'
   INSTALL_BUTTON_TEXT: 'Install'
