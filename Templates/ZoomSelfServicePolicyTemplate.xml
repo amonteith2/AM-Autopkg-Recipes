@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy>
+  <general>
+    <name>%NAME%</name>
+    <enabled>true</enabled>
+    <trigger>USER_INITIATED</trigger>
+    <frequency>Ongoing</frequency>
+    <retry_event>none</retry_event>
+    <retry_attempts>-1</retry_attempts>
+    <notify_on_each_failed_retry>false</notify_on_each_failed_retry>
+    <offline>false</offline>
+    <category>
+      <name>Staff - App</name>
+    </category>
+  </general>
+  <scope>
+    <all_computers>false</all_computers>
+    <computers/>
+    <computer_groups>
+      <computer_group>
+        <name>Staff Macs - All</name>
+      </computer_group>
+    </computer_groups>
+    <exclusions>
+      <computer_groups>
+        <computer_group>
+          <id>154</id>
+          <name>Site - Pathfoot Teaching</name>
+        </computer_group>
+      </computer_groups>
+    </exclusions>
+  </scope>
+  <self_service>
+    <use_for_self_service>true</use_for_self_service>
+    <self_service_display_name>%NAME%</self_service_display_name>
+    <install_button_text>Install</install_button_text>
+    <reinstall_button_text>Reinstall</reinstall_button_text>
+    <self_service_description>Installs Zoom and is set to use the Universities accounts for authentication.&#13;
+&#13;
+Updates should happen automatically without user intervention required.&#13;
+&#13;
+A Configuration profile should be added to your device to allow screen sharing.  You will then need to allow this in System Preferences.&#13;
+&#13;
+-Open System Preferences&#13;
+-Select Security &amp; Privacy&#13;
+-Scroll down the list on the left-hand side till you get to Screen Recording&#13;
+-Tick the box for zoom.us.</self_service_description>
+    <force_users_to_view_description>true</force_users_to_view_description>
+    <self_service_categories>
+      <category>
+        <name>%POLICY_CATEGORY%</name>
+      </category>
+    </self_service_categories>
+  </self_service>
+  <package_configuration>
+    <packages>
+      <size>3</size>
+      <package>
+        <name>%pkg_name%</name>
+      </package>
+      <package>
+        <name>Zoom_LaunchDaemonAndHelperTool_v5.5.pkg</name>
+      </package>
+      <package>
+        <name>ZoomPrefs.dmg</name>
+      </package>
+    </packages>
+  </package_configuration>
+  <scripts>
+    <size>0</size>
+  </scripts>
+  <maintenance>
+    <recon>true</recon>
+  </maintenance>
+</policy>
