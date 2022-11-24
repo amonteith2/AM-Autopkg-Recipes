@@ -3,14 +3,9 @@
   <general>
     <name>%NAME%</name>
     <enabled>true</enabled>
-    <trigger>USER_INITIATED</trigger>
     <frequency>Ongoing</frequency>
-    <retry_event>none</retry_event>
-    <retry_attempts>-1</retry_attempts>
-    <notify_on_each_failed_retry>false</notify_on_each_failed_retry>
-    <offline>false</offline>
     <category>
-      <name>Staff - App</name>
+      <name>%CATEGORY%</name>
     </category>
   </general>
   <scope>
@@ -24,7 +19,6 @@
     <exclusions>
       <computer_groups>
         <computer_group>
-          <id>154</id>
           <name>Site - Pathfoot Teaching</name>
         </computer_group>
       </computer_groups>
