@@ -8,7 +8,7 @@ Input:
   CATEGORY: 'Staff - App'
   POLICY_CATEGORY: 'Staff - App'
   POLICY_NAME: 'App - %NAME%'
-  POLICY_TEMPLATE: 'ZoomSelfServicePolicyTemplate.xml'
+  POLICY_TEMPLATE: 'ZoomSelfServicePolicyTemplate-edit.xml'
   GROUP_NAME: 'TEST Macs - am21'
   EXCLUSION_GROUP: Site - Pathfoot Teaching
   SELF_SERVICE_DISPLAY_NAME: '%NAME%'
