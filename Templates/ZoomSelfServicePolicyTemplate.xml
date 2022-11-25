@@ -37,7 +37,6 @@
   </self_service>
   <package_configuration>
     <packages>
-      <size>3</size>
       <package>
         <name>%pkg_name%</name>
       </package>
