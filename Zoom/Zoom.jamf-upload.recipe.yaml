@@ -12,7 +12,16 @@ Input:
   GROUP_NAME: 'TEST Macs - am21'
   SELF_SERVICE_DISPLAY_NAME: '%NAME%'
   SELF_SERVICE_ICON: '%NAME%.png'
-  SELF_SERVICE_DESCRIPTION: 'Installs Zoom and is set to use the Universities accounts for authentication.'
+  SELF_SERVICE_DESCRIPTION: 'Installs Zoom and is set to use the Universities accounts for authentication.&#13;
+&#13;
+Updates should happen automatically without user intervention required.&#13;
+&#13;
+A Configuration profile should be added to your device to allow screen sharing.  You will then need to allow this in System Preferences.&#13;
+&#13;
+-Open System Preferences&#13;
+-Select Security &amp; Privacy&#13;
+-Scroll down the list on the left-hand side till you get to Screen Recording&#13;
+-Tick the box for zoom.us.'
   INSTALL_BUTTON_TEXT: 'Install'
   REINSTALL_BUTTON_TEXT:  'Install'  
   UPDATE_PREDICATE: pkg_uploaded == True
