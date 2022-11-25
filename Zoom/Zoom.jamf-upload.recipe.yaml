@@ -23,7 +23,8 @@ A Configuration profile should be added to your device to allow screen sharing. 
 -Scroll down the list on the left-hand side till you get to Screen Recording&#13;
 -Tick the box for zoom.us.'
   INSTALL_BUTTON_TEXT: 'Install'
-  REINSTALL_BUTTON_TEXT:  'Install'  
+  REINSTALL_BUTTON_TEXT:  'Install'
+  EXCLUSION_GROUP: Site - Pathfoot Teaching
   UPDATE_PREDICATE: pkg_uploaded == True
 
 Process:
