@@ -1,6 +1,6 @@
 <policy>
   <general>
-    <name>%NAME%</name>
+    <name>%POLICY_NAME%</name>
     <enabled>true</enabled>
     <frequency>Ongoing</frequency>
     <category>
