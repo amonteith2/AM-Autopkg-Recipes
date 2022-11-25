@@ -7,7 +7,7 @@ Input:
   NAME: 'Zoom'
   CATEGORY: 'Staff - App'
   POLICY_CATEGORY: 'Productivity'
-  POLICY_NAME: 'App - %NAME%'
+  POLICY_NAME: 'TEST- App - %NAME%'
   POLICY_TEMPLATE: ZoomSelfServicePolicyTemplate.xml
   GROUP_NAME: 'TEST Macs - am21'
   SELF_SERVICE_DISPLAY_NAME: '%NAME%'
