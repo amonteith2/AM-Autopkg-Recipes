@@ -8,7 +8,7 @@ Input:
   CATEGORY: 'Staff - App'
   POLICY_CATEGORY: 'Commiunications'
   POLICY_NAME: '%NAME%'
-  POLICY_TEMPLATE: 'ZoomSelfServicePolicyTemplate-edit.xml'
+  POLICY_TEMPLATE: 'Policy_Install_SelfService_incVersion.xml'
   GROUP_NAME: 'TEST Macs - am21'
   SELF_SERVICE_DISPLAY_NAME: '%NAME%'
   SELF_SERVICE_ICON: '%NAME%.png'
