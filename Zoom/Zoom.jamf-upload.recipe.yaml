@@ -15,10 +15,7 @@ Input:
   SELF_SERVICE_ICON: '%NAME%.png'
   SELF_SERVICE_DESCRIPTION: 'Installs Zoom and is set to use the Universities accounts for authentication.'
   INSTALL_BUTTON_TEXT: 'Install'
-  REINSTALL_BUTTON_TEXT:  'Install'
-  INSTALL_PACKAGE_2: Zoom_LaunchDaemonAndHelperTool_v5.5.pkg
-  INSTALL_PACKAGE_3: ZoomPrefs.dmg
-  
+  REINSTALL_BUTTON_TEXT:  'Install'  
   UPDATE_PREDICATE: pkg_uploaded == True
 
 Process:
