@@ -1,0 +1,40 @@
+Identifier: com.github.amonteith2.jamf.GoogleChrome-patch
+ParentRecipe: com.github.amonteith2.autopkg.doitall.googlechrome
+MinimumVersion: '2.3'
+
+Input:
+  NAME: Google Chrome
+  SOFTWARE_TITLE: Google Chrome
+  CATEGORY: Internet
+  PATCH_TARGET_GROUP_NAME: Smart-update-Chrome
+  GROUP_TEMPLATE: JamfSmartGroupTemplateTest.xml
+  TESTING_GROUP_NAME: 'Staff Macs - All'
+  PATCH_NAME: '%NAME% Patch Policy'
+  PATCH_SOFTWARE_TITLE: '%NAME%'
+  PATCH_TEMPLATE: 'PatchTemplate-SelfService.xml'
+  #POLICY_NAME: '%NAME% Patch policy'
+  PATCH_ENABLED: 'true'
+  PATCH_UNKNOWN: 'true'
+  PATCH_GRACE: '20'
+  PATCH_ICON_POLICY_NAME: 'Chrome enterprise for staff'
+  UPDATE_PREDICATE: pkg_uploaded == True
+
+Process:
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
+  Arguments:
+    pkg_category: '%CATEGORY%'
+
+
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfComputerGroupUploader
+  Arguments:
+    computergroup_name: '%PATCH_TARGET_GROUP_NAME%'
+    computergroup_template: '%GROUP_TEMPLATE%'
+    replace_group: 'True'
+
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPatchUploader
+  Arguments:
+    patch_name: '%PATCH_NAME%'
+    patch_template: '%PATCH_TEMPLATE%'
+    patch_softwaretitle: '%PATCH_SOFTWARE_TITLE%'
+    patch_icon_policy_name: '%PATCH_ICON_POLICY_NAME%'
+    replace_patch: 'True'
