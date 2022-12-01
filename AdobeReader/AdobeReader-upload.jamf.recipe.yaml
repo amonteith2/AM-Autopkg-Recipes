@@ -11,7 +11,7 @@ Input:
   POLICY_TEMPLATE: Policy_Install_SelfService_incVersion.xml
   GROUP_NAME: 'Staff Macs - All'
   SELF_SERVICE_DISPLAY_NAME: Install %NAME%
-  SELF_SERVICE_DESCRIPTION: Allows you to read PDF files.
+  SELF_SERVICE_DESCRIPTION: Allows you to read PDF files.  May have more luck with fancy PDF files than Preview.
   SELF_SERVICE_ICON: '%NAME%.png'
   INSTALL_BUTTON_TEXT: 'Install'
   REINSTALL_BUTTON_TEXT:  'Install'
