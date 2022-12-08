@@ -19,7 +19,7 @@
 		<key>PATCH_GRACE</key>
 		<string>20</string>
 		<key>PATCH_ICON_POLICY_NAME</key>
-		<string>%POLICY_NAME%</string>
+		<string>App - %NAME%</string>
 		<key>PATCH_NAME</key>
 		<string>%NAME% Patch Policy</string>
 		<key>PATCH_SOFTWARE_TITLE</key>
