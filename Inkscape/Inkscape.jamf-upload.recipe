@@ -29,7 +29,7 @@
 		<key>REINSTALL_BUTTON_TEXT</key>
 		<string>Install</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Inkscape is a Free and open source vector graphics editor. </string>
+		<string>Inkscape is a Free and open source vector graphics editor.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
 		<string>%NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
