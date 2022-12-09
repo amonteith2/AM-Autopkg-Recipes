@@ -25,7 +25,7 @@
 		<key>POLICY_NAME</key>
 		<string>App - %NAME%</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>Policy_Install_SelfService_incVersion.xml</string>
+		<string>Policy_SelfService_IncVer_Recon.xml</string>
 		<key>REINSTALL_BUTTON_TEXT</key>
 		<string>Install</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
