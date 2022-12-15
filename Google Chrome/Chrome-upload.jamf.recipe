@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Copied from com.github.autopkg.grahampugh-recipes.jamf.GoogleChrome-pkg-upload with the intention of personalisng it for our Jamf setup.</string>
+	<key>Identifier</key>
+	<string>com.github.amonteith2.jamf.GoogleChrome-upload-editpolicy</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Internet</string>
+		<key>GROUP_NAME</key>
+		<string>Staff Macs - All</string>
+		<key>INSTALL_BUTTON_TEXT</key>
+		<string>Install</string>
+		<key>NAME</key>
+		<string>Google Chrome</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Staff - App</string>
+		<key>POLICY_NAME</key>
+		<string>Chrome enterprise for staff</string>
+		<key>POLICY_RUN_COMMAND</key>
+		<string>Install</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>Policy_Install_SelfService_incVersion.xml</string>
+		<key>REINSTALL_BUTTON_TEXT</key>
+		<string>Install</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Chrome updates automatically to run smooth &amp; secure with the latest features.</string>
+		<key>SELF_SERVICE_DISPLAY_NAME</key>
+		<string>Install latest %NAME%</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+		<key>UPDATE_PREDICATE</key>
+		<string>pkg_uploaded == True</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>2.3</string>
+	<key>ParentRecipe</key>
+	<string>com.github.amonteith2.autopkg.doitall.googlechrome</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>pkg_category</key>
+				<string>%CATEGORY%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>icon</key>
+				<string>%SELF_SERVICE_ICON%</string>
+				<key>policy_name</key>
+				<string>%POLICY_NAME%</string>
+				<key>policy_template</key>
+				<string>%POLICY_TEMPLATE%</string>
+				<key>replace_policy</key>
+				<string>True</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
