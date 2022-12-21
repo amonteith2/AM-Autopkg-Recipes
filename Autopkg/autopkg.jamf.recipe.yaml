@@ -1,5 +1,5 @@
 Identifier: com.github.amonteith2.Autopkg.jamf
-ParentRecipe: com.github.autopkg.download.AutoPkg-Release
+ParentRecipe: com.github.amonteith2.download.Autopkg
 MinimumVersion: '2.3'
 
 Input:
