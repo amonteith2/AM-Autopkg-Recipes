@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Autopkg.</string>
 	<key>Identifier</key>
-	<string>com.github.amonteith2.download.Autopkg</com></string>
+	<string>com.github.amonteith2.download.Autopkg/string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
