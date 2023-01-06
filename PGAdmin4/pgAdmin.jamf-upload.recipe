@@ -36,7 +36,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.amonteith2.pkg.pgAdmin4</string>
+	<string>com.github.amonteith2.download.pgAdmin4</string>
 	<key>Process</key>
 	<array>
 		<dict>
