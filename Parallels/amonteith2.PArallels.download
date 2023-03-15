@@ -13,7 +13,7 @@ For major version 17, set the PLATFORM_ARCH in your override to "image"
 
 This recipe differs from the one in keeleysam-recipes because it offers code signature verification, does not require a ParallelsURLProvider processor, and also includes pkg and install recipes.</string>
 	<key>Identifier</key>
-	<string>com.github.homebysix.download.ParallelsDesktop</string>
+	<string>com.github.amonteith2.download.ParallelsDesktop</string>
 	<key>Input</key>
 	<dict>
 		<key>MAJOR_VERSION</key>
