@@ -14,6 +14,7 @@ Input:
   SELF_SERVICE_ICON: '%NAME%.png'
   UPDATE_PREDICATE: pkg_uploaded == True
   GROUP_NAME: 'Staff Macs - All'
+  POLICY_RUN_COMMAND: 'sudo jamf recon'
 
 Process:
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
