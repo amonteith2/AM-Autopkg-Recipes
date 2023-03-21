@@ -6,7 +6,7 @@ Input:
   NAME: R
   SOFTWARE_TITLE: 'R for Statistical Computing'
   CATEGORY: Statistics
-  GROUP_NAME: 'Smart-update-%NAME%'
+  PATCH_TARGET_GROUP_NAME: 'Smart-update-%NAME%'
   GROUP_TEMPLATE: JamfSmartGroupTemplateTest.xml
   TESTING_GROUP_NAME: 'Staff Macs - All'
   PATCH_NAME: 'Patch Policy - %NAME%'
