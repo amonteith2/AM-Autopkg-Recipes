@@ -10,7 +10,7 @@ Input:
   POLICY_NAME: 'Install Office - Self Service'
   POLICY_TEMPLATE: Policy-install-SelfService.xml
   SELF_SERVICE_DISPLAY_NAME: Install %NAME%
-  SELF_SERVICE_DESCRIPTION: It's Office.
+  SELF_SERVICE_DESCRIPTION: Microsoft 365 for Mac is a productivity suite that includes Word, Excel, PowerPoint, Outlook, OneNote, and OneDrive. You can work online or offline, on your own or with others in real-time.
   SELF_SERVICE_ICON: '%NAME%.png'
   UPDATE_PREDICATE: pkg_uploaded == True
   GROUP_NAME: 'Staff Macs - All'
