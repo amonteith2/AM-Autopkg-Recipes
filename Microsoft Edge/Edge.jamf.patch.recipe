@@ -22,7 +22,7 @@
 		<string>App - %NAME%</string>
 		<key>PATCH_NAME</key>
 		<string>%NAME% Patch Policy</string>
-		<key>PATCH_SOFTWARE_TITLE</key>∑∑
+		<key>PATCH_SOFTWARE_TITLE</key>
 		<string>Microsoft Edge</string>
 		<key>PATCH_TEMPLATE</key>
 		<string>PatchTemplate-selfservice.xml</string>
