@@ -13,7 +13,7 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>JamfSmartGroupTemplateTest.xml</string>
 		<key>NAME</key>
-		<string>Micrososft Edge</string>
+		<string>Microsoft Edge</string>
 		<key>PATCH_ENABLED</key>
 		<string>true</string>
 		<key>PATCH_GRACE</key>
