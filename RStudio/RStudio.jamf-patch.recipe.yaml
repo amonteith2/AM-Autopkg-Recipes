@@ -25,6 +25,11 @@ Process:
     computergroup_template: '%GROUP_TEMPLATE%'
     replace_group: 'True'
 
+- Processor: Versioner
+    Arguments:
+      input_plist_path: "%pathname%/RStudio.app/Contents/Info.plist"
+      plist_version_key: CFBundleShortVersionString
+
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfPatchUploader
   Arguments:
     patch_name: '%PATCH_NAME%'
