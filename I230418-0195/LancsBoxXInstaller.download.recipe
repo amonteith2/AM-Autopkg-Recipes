@@ -5,9 +5,9 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of #LancsBox X Installer.</string>
+	<string>Downloads the latest version of LancsBox X Installer.</string>
 	<key>Identifier</key>
-	<string>com.github.amonteith2.download.#LancsBoxXInstaller</string>
+	<string>com.github.amonteith2.download.LancsBoxXInstaller</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
