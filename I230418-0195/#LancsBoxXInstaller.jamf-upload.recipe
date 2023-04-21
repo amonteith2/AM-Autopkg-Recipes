@@ -5,7 +5,7 @@
 	<key>Comment</key>
 	<string>Uploads a pckage to Jamf and creates a policy to deploy the software to a specified group in Self Service.</string>
 	<key>Identifier</key>
-	<string>com.github.amonteith2.jamf.#LancsBox X Installer-upload-editpolicy</string>
+	<string>com.github.amonteith2.jamf.#LancsBoxXInstaller-upload-editpolicy</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
