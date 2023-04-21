@@ -15,7 +15,7 @@
 		<key>INSTALL_BUTTON_TEXT</key>
 		<string>Install</string>
 		<key>NAME</key>
-		<string>#LancsBox X Installer</string>
+		<string>LancsBox X Installer</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Staff - App</string>
 		<key>POLICY_NAME</key>
