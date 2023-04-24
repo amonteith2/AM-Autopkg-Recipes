@@ -15,7 +15,7 @@
 		<key>INSTALL_BUTTON_TEXT</key>
 		<string>Install</string>
 		<key>NAME</key>
-		<string>StreamDeck</string>
+		<string>Stream Deck</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Staff - App</string>
 		<key>POLICY_NAME</key>
@@ -36,7 +36,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.amonteith2.pkg.StreamDeck</string>
+	<string>com.github.amonteith2.download.addVer.StreamDeck</string>
 	<key>Process</key>
 	<array>
 		<dict>
