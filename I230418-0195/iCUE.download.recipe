@@ -84,6 +84,17 @@
 			<key>Processor</key>
 			<string>Versioner</string>
 		</dict>
+		  <dict>
+         <key>Arguments</key>
+         <dict>
+            <key>source_pkg</key>
+            <string>%RECIPE_CACHE_DIR%/unpack</string>
+            <key>pkg_path</key>
+            <string>%RECIPE_CACHE_DIR%/dowloads/%NAME%-%VERSION%.pkg</string>
+         </dict>
+         <key>Processor</key>
+         <string>PkgCopier</string>
+   </dict>
 	</array>
 </dict>
 </plist>
