@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest version of Stream Deck.  Copied from DataJAR's recipe with the improvement of adding the version nunbmer</string>
+    <string>Downloads latest version of Stream Deck.  Copied from DataJAR's recipe but this one adds the version number too</string>
     <key>Identifier</key>
     <string>com.github.amonteith2.download.addVer.StreamDeck</string>
     <key>Input</key>
