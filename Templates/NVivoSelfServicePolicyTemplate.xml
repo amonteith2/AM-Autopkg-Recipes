@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <policy>
   <general>
     <name>%POLICY_NAME%</name>
@@ -10,18 +9,24 @@
   </general>
   <scope>
     <all_computers>false</all_computers>
-    <computers/>
     <computer_groups>
       <computer_group>
         <name>%GROUP_NAME%</name>
       </computer_group>
     </computer_groups>
+    <exclusions>
+      <computer_groups>
+        <computer_group>
+          <name>%EXCLUSION_GROUP%</name>
+        </computer_group>
+      </computer_groups>
+    </exclusions>
   </scope>
   <self_service>
     <use_for_self_service>true</use_for_self_service>
-    <self_service_display_name>%SELF_SERVICE_DISPLAY_NAME%</self_service_display_name>
-    <install_button_text>Install</install_button_text>
-    <reinstall_button_text>Reinstall</reinstall_button_text>
+    <self_service_display_name>%NAME%</self_service_display_name>
+    <install_button_text>%INSTALL_BUTTON_TEXT%</install_button_text>
+    <reinstall_button_text>%REINSTALL_BUTTON_TEXT%</reinstall_button_text>
     <self_service_description>%SELF_SERVICE_DESCRIPTION%</self_service_description>
     <force_users_to_view_description>true</force_users_to_view_description>
     <self_service_categories>
@@ -32,14 +37,13 @@
   </self_service>
   <package_configuration>
     <packages>
-      <size>3</size>
-      <package>
-        <name>%pkg_name%</name>
-      </package>
+    <size>0</size>
     </packages>
   </package_configuration>
   <scripts>
-    <size>0</size>
+    <script>
+      <name>App - Activate NVivo v20</name>
+    </script>
   </scripts>
   <maintenance>
     <recon>true</recon>
