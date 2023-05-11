@@ -28,11 +28,15 @@
       </category>
     </self_service_categories>
   </self_service>
-  <package_configuration>
-    <packages>
-    <size>0</size>
-    </packages>
-  </package_configuration>
+<package_configuration>
+		<packages>
+			<size>1</size>
+			<package>
+				<name>%pkg_name%</name>
+				<action>Install</action>
+			</package>
+		</packages>
+	</package_configuration>
   <scripts>
     <size>1</size>
     <script>
