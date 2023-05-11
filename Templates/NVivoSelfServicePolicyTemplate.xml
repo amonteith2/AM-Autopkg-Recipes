@@ -14,17 +14,18 @@
         <name>%GROUP_NAME%</name>
       </computer_group>
     </computer_groups>
-  </scope>
-	<package_configuration>
-		<packages>
-			<size>1</size>
-			<package>
-				<name>%pkg_name%</name>
-				<action>Install</action>
-			</package>
-		</packages>
-	</package_configuration>
-  <self_service>
+</scope>
+	
+<package_configuration>
+<packages>
+<size>1</size>
+<package>
+<name>%pkg_name%</name>
+<action>Install</action>
+</package>
+</packages>
+</package_configuration>
+<self_service>
     <use_for_self_service>true</use_for_self_service>
     <self_service_display_name>%NAME%</self_service_display_name>
     <install_button_text>%INSTALL_BUTTON_TEXT% - %version%<</install_button_text>
