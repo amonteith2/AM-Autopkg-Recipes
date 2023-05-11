@@ -9,23 +9,23 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Testing</string>
+		<string>Productivity</string>
 		<key>GROUP_NAME</key>
-		<string>TEST - am21 Macs</string>
+		<string>Staff Macs - All</string>
 		<key>INSTALL_BUTTON_TEXT</key>
 		<string>Install</string>
 		<key>NAME</key>
 		<string>NVivo</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Testing</string>
+		<string>Staff - App</string>
 		<key>POLICY_NAME</key>
-		<string>TEST - App - %NAME%</string>
+		<string>App - %NAME%</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>NVivoSelfServicePolicyTemplate.xml</string>
 		<key>REINSTALL_BUTTON_TEXT</key>
 		<string>Install</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>NVivo blurb here.</string>
+		<string>NVivo is a qualitative data analysis (QDA) computer software package produced by Lumivero (formerly by QSR International). NVivo helps qualitative researchers to organize, analyze and find insights in unstructured or qualitative data like interviews, open-ended survey responses, journal articles, social media and web content, where deep levels of analysis on small or large volumes of data are required.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
 		<string>%NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
