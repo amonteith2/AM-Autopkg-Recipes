@@ -34,8 +34,10 @@
     </packages>
   </package_configuration>
   <scripts>
+    <size>1</size>
     <script>
       <name>App - Activate NVivo v20</name>
+      <priority>After</priority>
     </script>
   </scripts>
   <maintenance>
