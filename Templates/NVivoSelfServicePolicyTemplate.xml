@@ -14,13 +14,6 @@
         <name>%GROUP_NAME%</name>
       </computer_group>
     </computer_groups>
-    <exclusions>
-      <computer_groups>
-        <computer_group>
-          <name>%EXCLUSION_GROUP%</name>
-        </computer_group>
-      </computer_groups>
-    </exclusions>
   </scope>
   <self_service>
     <use_for_self_service>true</use_for_self_service>
