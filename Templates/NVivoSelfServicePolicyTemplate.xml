@@ -14,8 +14,7 @@
         <name>%GROUP_NAME%</name>
       </computer_group>
     </computer_groups>
-</scope>
-	
+</scope>	
 <package_configuration>
 <packages>
 <size>1</size>
