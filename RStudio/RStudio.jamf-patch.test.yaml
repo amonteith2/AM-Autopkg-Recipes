@@ -3,14 +3,14 @@ ParentRecipe: com.github.amonteith2.jamf.RStudio-upload-editpolicy
 MinimumVersion: '2.3'
 
 Input:
-  NAME: RStudio
-  SOFTWARE_TITLE: RStudio Desktop
-  CATEGORY: Statistics
-  PATCH_TARGET_GROUP_NAME: Smart-update-%NAME%
+  NAME: 'RStudio'
+  SOFTWARE_TITLE: 'RStudio Desktop'
+  CATEGORY: 'Statistics'
+  PATCH_TARGET_GROUP_NAME: 'Smart-update-%NAME%'
   GROUP_TEMPLATE: JamfSmartGroupTemplateTest.xml
   TESTING_GROUP_NAME: 'TEST - am21 Macs'
-  PATCH_NAME: Update Studio
-  PATCH_SOFTWARE_TITLE: RStudio Desktop
+  PATCH_NAME: 'Update Studio'
+  PATCH_SOFTWARE_TITLE: 'RStudio Desktop'
   PATCH_TEMPLATE: 'PatchTemplate-selfservice.xml'
   POLICY_NAME: 'App - %NAME%'
   PATCH_ENABLED: 'true'
