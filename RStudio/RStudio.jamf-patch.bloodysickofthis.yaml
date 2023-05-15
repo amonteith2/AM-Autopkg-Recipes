@@ -1,4 +1,4 @@
-Identifier: com.github.amonteith2.jamf.RStudio-patch
+Identifier: com.github.amonteith2.jamf.test.RStudio-patch
 ParentRecipe: com.github.amonteith2.jamf.RStudio-upload-editpolicy
 MinimumVersion: '2.3'
 
