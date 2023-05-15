@@ -8,7 +8,7 @@ Input:
   CATEGORY: Statistics
   PATCH_TARGET_GROUP_NAME: Smart-update-%NAME%
   GROUP_TEMPLATE: JamfSmartGroupTemplateTest.xml
-  TESTING_GROUP_NAME: 'Staff Macs - All'
+  TESTING_GROUP_NAME: 'TEST - am21 Macs'
   PATCH_NAME: Update Studio
   PATCH_SOFTWARE_TITLE: RStudio Desktop
   PATCH_TEMPLATE: 'PatchTemplate-selfservice.xml'
