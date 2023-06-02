@@ -5,7 +5,7 @@
 	<key>Comment</key>
 	<string>Uploads a pckage to Jamf and creates a policy to deploy the software to a specified group in Self Service.</string>
 	<key>Identifier</key>
-	<string>com.github.amonteith2.jamf.VSCode-upload-editpolicy</string>
+	<string>com.github.amonteith2.jamf.reMarkable</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -36,7 +36,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.amonteith2.pkg.visualstudioscode</string>
+	<string>ccom.github.amonteith2.pkg.reMarkable</string>
 	<key>Process</key>
 	<array>
 		<dict>
