@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest R installer package.</string>
 	<key>Identifier</key>
-	<string>io.github.hjuutilainen.download.R</string>
+	<string>com.github.amonteith2.download.x86_64.R/string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
