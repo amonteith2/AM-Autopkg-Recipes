@@ -54,7 +54,7 @@
 				<string>CFBundleShortVersionString</string>
 			</dict>
 			<key>Processor</key>
-			<string>Versioner</string>
+			<string>RStudioVersioner</string>
 		</dict>
         <dict>
             <key>Processor</key>
