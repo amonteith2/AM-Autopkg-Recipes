@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Comment</key>
-	<string>Pilfered from hansen-m and tried to add the AppIconExtractor processor</string>
+	<string>Pilfered from hansen-m.  Am trying to use a custom processor to get round the RStudio version issue.</string>
 	<key>Description</key>
     <string>Downloads the latest RStudio installer package.</string>
     <key>Identifier</key>
