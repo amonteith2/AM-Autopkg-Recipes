@@ -1,4 +1,4 @@
-Coment: Uploads a pckage to Jamf and creates a policy to deploy the software to a specified group in Self Service.
+Coment: Uploads a pckage to Jamf and creates a policy to deploy the software to a specified group in Self Service .
 Identifier: com.github.amonteith2.jamf.RStudio-upload-editpolicy
 ParentRecipe: com.github.amonteith2.pkg.RStudio
 MinimumVersion: '2.3'
