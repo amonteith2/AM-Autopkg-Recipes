@@ -1,5 +1,5 @@
 Identifier: com.github.amonteith2.jamf.test.RStudio-patch
-ParentRecipe: com.github.amonteith2.jamf.RStudio-upload-editpolicy
+ParentRecipe: RStudio.UoS.pkg.recipe
 MinimumVersion: '2.3'
 
 Input:
