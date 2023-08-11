@@ -19,6 +19,10 @@ Input:
   PATCH_ICON_POLICY_NAME: 'App - %NAME%'
 
 Process:
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
+  Arguments:
+    pkg_category: '%CATEGORY%'
+
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfComputerGroupUploader
   Arguments:
     computergroup_name: '%PATCH_TARGET_GROUP_NAME%'
