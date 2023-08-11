@@ -9,7 +9,7 @@ Input:
   PATCH_TARGET_GROUP_NAME: 'Smart-update-%NAME%'
   GROUP_TEMPLATE: JamfSmartGroupTemplateTest.xml
   TESTING_GROUP_NAME: 'TEST - am21 Macs'
-  PATCH_NAME: 'Update Studio'
+  PATCH_NAME: 'Update Studio - TEST'
   PATCH_SOFTWARE_TITLE: 'RStudio Desktop'
   PATCH_TEMPLATE: 'PatchTemplate-selfservice.xml'
   POLICY_NAME: 'App - %NAME%'
