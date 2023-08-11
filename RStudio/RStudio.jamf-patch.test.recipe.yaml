@@ -23,6 +23,11 @@ Process:
   Arguments:
     pkg_category: '%CATEGORY%'
 
+ - Processor: Versioner
+	Arguments:
+		input_plist_path: '%pathname%/%NAME%.app/Contents/Info.plist'
+		plist_version_key: 'CFBundleShortVersionString'
+
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfComputerGroupUploader
   Arguments:
     computergroup_name: '%PATCH_TARGET_GROUP_NAME%'
