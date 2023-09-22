@@ -9,7 +9,7 @@ Input:
   POLICY_CATEGORY: 'Productivity'
   POLICY_NAME: 'App - %NAME%'
   POLICY_TEMPLATE: ZoomSelfServicePolicyTemplate.xml
-  GROUP_NAME: 'TEST Macs - am21'
+  GROUP_NAME: 'TEST - Macs am21'
   SELF_SERVICE_DISPLAY_NAME: '%NAME%'
   SELF_SERVICE_ICON: '%NAME%.png'
   SELF_SERVICE_DESCRIPTION: 'Installs Zoom and is set to use the Universities accounts for authentication.&#13;
