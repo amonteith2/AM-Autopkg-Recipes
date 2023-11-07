@@ -38,3 +38,4 @@ Process:
     policy_name: '%POLICY_NAME%'
     policy_template: '%POLICY_TEMPLATE%'
     replace_policy: 'True'
+    install_button_text: 'Install - %VERSION%'
