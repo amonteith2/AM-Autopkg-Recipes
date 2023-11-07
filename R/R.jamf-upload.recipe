@@ -12,8 +12,6 @@
 		<string>Development</string>
 		<key>GROUP_NAME</key>
 		<string>Staff Macs - all</string>
-		<key>INSTALL_BUTTON_TEXT</key>
-		<string>Install</string>
 		<key>NAME</key>
 		<string>R</string>
 		<key>POLICY_CATEGORY</key>
