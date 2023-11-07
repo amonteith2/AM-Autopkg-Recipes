@@ -16,6 +16,7 @@ Input:
   SELF_SERVICE_DESCRIPTION: R is a free software environment for statistical computing and graphics.
   SELF_SERVICE_ICON: R.png
   UPDATE_PREDICATE: pkg_uploaded == True
+  INSTALL_BUTTON_TEXT: 'Install'
 
 Process:
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
@@ -38,4 +39,3 @@ Process:
     policy_name: '%POLICY_NAME%'
     policy_template: '%POLICY_TEMPLATE%'
     replace_policy: 'True'
-    install_button_text: 'Install - %VERSION%'
