@@ -17,6 +17,7 @@ Input:
   SELF_SERVICE_ICON: R.png
   UPDATE_PREDICATE: pkg_uploaded == True
   INSTALL_BUTTON_TEXT: 'Install'
+  REINSTALL_BUTTON_TEXT: 'Install'
 
 Process:
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
