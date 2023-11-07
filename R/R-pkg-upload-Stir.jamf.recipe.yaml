@@ -1,5 +1,5 @@
 Identifier: com.github.amonteith2.jamf.R-pkg-upload
-ParentRecipe: io.github.hjuutilainen.download.R
+ParentRecipe: icom.github.homebysix.pkg.R
 MinimumVersion: '2.3'
 
 Input:
