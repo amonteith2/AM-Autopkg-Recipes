@@ -35,22 +35,11 @@
             <string>FlatPkgUnpacker</string>
          </dict>
 
-                <dict>
-            <key>Arguments</key>
-            <dict>
-               <key>destination_path</key>
-               <string>%RECIPE_CACHE_DIR%/downloads/payload</string>
-               <key>flat_pkg_path</key>
-               <string>%RECIPE_CACHE_DIR%/downloads/unpack/MicrosoftTeams_app.pkg</string>
-            </dict>
-            <key>Processor</key>
-            <string>FlatPkgUnpacker</string>
-         </dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%RECIPE_CACHE_DIR%/downloads/payload/Microsoft\ Teams\ \(work\ or\ school\).app/Contents/Info.plist</string>
+				<string>%RECIPE_CACHE_DIR%/downloads/unpack/MicrosoftTeams_app.pkg/Contents/Info.plist</string>
 				<key>plist_version_key</key>
 				<string>CFBundleShortVersionString</string>
 			</dict>
