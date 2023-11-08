@@ -20,7 +20,7 @@
       <key>MinimumVersion</key>
       <string>1.0.0</string>
       <key>ParentRecipe</key>
-      <string>com.github.amonteith2.download.NewTeams</string>
+      <string>com.github.amonteith2.download.newteams</string>
       <key>Process</key>
       <array>
          <dict>
