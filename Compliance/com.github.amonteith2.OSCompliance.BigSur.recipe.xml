@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.github.amonteith2.jamf.OS-Compliance-BigSur</string>
+	<key>Input</key>
+	<dict>
+		<key>OSNAME</key>
+		<string>Big Sur</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>OSComplianceSmartGroupTemplate</string>
+		<key>OS_MIN</key>
+		<string>11.7.9</string>
+		<key>12.0</key>
+		<string>true</string>
+		<key>OS_BUILD</key>
+		<string></string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>2.3</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>computergroup_template</key>
+				<string>%GROUP_TEMPLATE%</string>
+				<key>replace_group</key>
+				<string>True</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfComputerGroupUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
