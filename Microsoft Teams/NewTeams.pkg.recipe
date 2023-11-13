@@ -70,7 +70,7 @@
 					<key>pkgdir</key>
 					<string>%RECIPE_CACHE_DIR%/downloads/unpack</string>
 					<key>id</key>
-					<string>%PKG_ID%</string>
+					<string>com.microsoft.teams2</string>
 					<key>pkgroot</key>
 					<string>%RECIPE_CACHE_DIR%/downloads/unpack</string>
 					<key>options</key>
