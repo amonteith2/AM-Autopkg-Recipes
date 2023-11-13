@@ -58,9 +58,6 @@
 		</dict>
 
 
-
-
-
 		<dict>
 			<key>Processor</key>
 			<string>PkgCreator</string>
@@ -72,9 +69,27 @@
 					<string>%NAME%-%version%</string>
 					<key>pkgdir</key>
 					<string>%RECIPE_CACHE_DIR%/downloads/unpack</string>
+					<key>id</key>
+					<string>%PKG_ID%</string>
+					<key>options</key>
+					<string>purge_ds_store</string>
+					<key>chown</key>
+					<array>
+						<dict>
+							<key>path</key>
+							<string>Applications</string>
+							<key>user</key>
+							<string>root</string>
+							<key>group</key>
+							<string>admin</string>
+						</dict>
+					</array>
 				</dict>
 			</dict>
 		</dict>
+
+
+
 
 	</array>
 </dict>
