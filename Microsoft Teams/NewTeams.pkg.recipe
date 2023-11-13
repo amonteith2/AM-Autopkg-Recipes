@@ -77,6 +77,8 @@
 					<string>%NAME%-%version%</string>
 					<key>pkgdir</key>
 					<string>%RECIPE_CACHE_DIR%/downloads/unpack</string>
+					<key>pkgroot</key>
+					<string>%RECIPE_CACHE_DIR%/downloads/unpack</string>
 				</dict>
 			</dict>
 		</dict>
