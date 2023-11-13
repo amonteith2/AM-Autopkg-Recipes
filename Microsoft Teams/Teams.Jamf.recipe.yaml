@@ -1,6 +1,6 @@
 Comment: Pilfered from someone else.
 Identifier: com.github.amonteith2.Teams.jamf
-ParentRecipe: com.github.rtrouton.pkg.microsoftteams
+ParentRecipe: com.github.amonteith2.pkg.newteams
 MinimumVersion: '2.3'
 
 Input:
