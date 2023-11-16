@@ -1,0 +1,5 @@
+Make the initial download and pkg recipes using Recipe Robot (https://github.com/homebysix/recipe-robot, also uploaded to Jamf).  You can also use recipes that other people make as long as you have a look over them first to make sure they don't have any scripts in them or use things from other external sources.  If they do, check them out before using in anger.
+
+When you're happy with the recipes, use these templates to make the Jamf upload and patch recipes.
+-All values with * need to be substituted by you.
+-All the values with % are viariables.  They should be fine.
