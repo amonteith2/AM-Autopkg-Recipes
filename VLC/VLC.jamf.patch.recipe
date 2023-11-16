@@ -33,7 +33,7 @@
 		<key>SOFTWARE_TITLE</key>
 		<string>VMC media player</string>
 		<key>TESTING_GROUP_NAME</key>
-		<string>TEST - am21 Macs</string>
+		<string></string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
