@@ -38,7 +38,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.amonteith2.pkg.*APPNAME*</string>
+	<string>*** Put the identifier of the pkg recipe in here ***</string>
 	<key>Process</key>
 	<array>
 		<dict>
