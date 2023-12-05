@@ -38,7 +38,7 @@ Rebuild a degraded RAID 1</string>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.pkg.Skype</string>
+	<string>com.github.amonteith2.pkg.G-RAIDwithThunderboltConfigurator</string>
 	<key>Process</key>
 	<array>
 		<dict>
