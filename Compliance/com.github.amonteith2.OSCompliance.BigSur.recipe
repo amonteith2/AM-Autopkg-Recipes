@@ -9,7 +9,7 @@
 		<key>OSNAME</key>
 		<string>%osname%</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>OSComplianceSmartGroupTemplate</string>
+		<string>OSComplianceSmartGroupTemplate.xml</string>
 		<key>OS_MIN</key>
 		<string>%os_min%</string>
 		<key>12.0</key>
