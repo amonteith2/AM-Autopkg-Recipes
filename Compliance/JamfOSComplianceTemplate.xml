@@ -2,7 +2,6 @@
     <name>%GROUP_NAME%</name>
     <is_smart>true</is_smart>
     <criteria>
-      <size>4</size>
       <criterion>
         <name>Operating System</name>
         <priority>0</priority>
