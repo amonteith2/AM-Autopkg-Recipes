@@ -3,12 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.amonteith2.jamf.OS-Compliance-BigSur</string>
+	<string>com.github.amonteith2.jamf.OS-Compliance</string>
 	<key>Input</key>
 	<dict>
 		<key>OSNAME</key>
 		<string>%osname%</string>
-		<name>Staff - Compliance - OS %OSNAME%</name>
+		<key>GROUP_NAME</key>
+		<string>Staff - Compliance - OS %OSNAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>OSComplianceSmartGroupTemplate.xml</string>
 		<key>OS_MIN</key>
