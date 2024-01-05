@@ -7,17 +7,17 @@
 	<key>Input</key>
 	<dict>
 		<key>OSNAME</key>
-		<string>%osname%</string>
+		<string></string>
 		<key>GROUP_NAME</key>
 		<string>Staff - Compliance - OS %OSNAME%</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>OSComplianceSmartGroupTemplate.xml</string>
+		<string>JamfOSComplianceTemplate.xml</string>
 		<key>OS_MIN</key>
-		<string>%os_min%</string>
+		<string></string>
 		<key>12.0</key>
 		<string>true</string>
 		<key>OS_BUILD</key>
-		<string>%os_build%</string>
+		<string></string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
