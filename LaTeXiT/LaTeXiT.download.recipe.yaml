@@ -1,4 +1,4 @@
-Description: Downloads the latest version of LaTeXiT.
+Description: Downloads the latest version of LaTeXiT.  Shamelessley pilfered from grahampugh.
 Identifier: com.github.amonteith2.recipes.download.LaTeXiT
 MinimumVersion: "2.3"
 
