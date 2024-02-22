@@ -25,8 +25,8 @@ A Configuration profile should be added to your device to allow screen sharing. 
   INSTALL_BUTTON_TEXT: 'Install'
   REINSTALL_BUTTON_TEXT:  'Install'
   EXCLUSION_GROUP: 'Site - Pathfoot Teaching'
-  INSTALL_PACKAGE_2: Zoom_LaunchDaemonAndHelperTool_v5.5.pkg
-  INSTALL_PACKAGE_3: ZoomPrefs.dmg
+  INSTALL_PACKAGE_2: 'Zoom_LaunchDaemonAndHelperTool_v5.5.pkg'
+  INSTALL_PACKAGE_3: 'ZoomPrefs.dmg'
   UPDATE_PREDICATE: pkg_uploaded == True
 
 Process:
