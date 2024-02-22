@@ -37,14 +37,18 @@
   </self_service>
   <package_configuration>
     <packages>
+      <size>3</size>
       <package>
         <name>%pkg_name%</name>
+        <action>Install</action>
       </package>
       <package>
         <name>%INSTALL_PACKAGE_2%</name>
+        <action>Install</action>
       </package>
       <package>
         <name>%INSTALL_PACKAGE_3%</name>
+        <action>Install</action>
       </package>
     </packages>
   </package_configuration>
