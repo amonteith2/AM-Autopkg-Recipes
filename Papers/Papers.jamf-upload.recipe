@@ -36,7 +36,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.amonteith2.pkg.Papers</string>
+	<string>com.github.homebysix.pkg.Papers</string>
 	<key>Process</key>
 	<array>
 		<dict>
