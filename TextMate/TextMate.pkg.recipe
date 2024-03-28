@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of TextMate and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.amonteith2.pkg.Textmate</string>
+	<string>com.github.amonteith2.pkg.TextMate</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
