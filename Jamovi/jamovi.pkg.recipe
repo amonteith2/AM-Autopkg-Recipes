@@ -21,7 +21,17 @@
 	<array>
 		<dict>
 			<key>Processor</key>
-			<string>AppPkgCreator</string>
+			<string>PkgCreator</string>
+			<key>id</key>
+			<string>org.jamovi.jamovi</string>
+			<key>options</key>
+			<string>purge_ds_store</string>
+			<key>pkgname</key>
+			<string>%NAME%-%version%</string>
+			<key>pkgroot</key>
+			<string>%RECIPE_CACHE_DIR%/pkgroot</string>
+			<key>pkgtype</key>
+			<string>flat</string>
 		</dict>
 	</array>
 </dict>
