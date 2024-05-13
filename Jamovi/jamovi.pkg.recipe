@@ -32,6 +32,8 @@
 			<string>%RECIPE_CACHE_DIR%/pkgroot</string>
 			<key>pkgtype</key>
 			<string>flat</string>
+			<key>pkg_request</key>
+			<string>true</string>
 		</dict>
 		<dict>
 			<key>Processor</key>
