@@ -36,7 +36,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.download.google-earth</string>
+	<string>com.github.autopkg.pkg.google-earth</string>
 	<key>Process</key>
 	<array>
 		<dict>
