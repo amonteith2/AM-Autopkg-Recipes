@@ -7,10 +7,9 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-
 		<string>Internet</string>
 		<key>PATCH_TARGET_GROUP_NAME</key>
-		<string>Smart-update-%NAME%</string>
+		<string>Smart-update-Firefox</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>JamfSmartGroupTemplateTest.xml</string>
 		<key>NAME</key>
@@ -34,7 +33,7 @@
 		<key>SOFTWARE_TITLE</key>
 		<string>Mozilla Firefox</string>
 		<key>TESTING_GROUP_NAME</key>
-		<string>Smart-update-%NAME%</string>
+		<string>App - %NAME%</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
