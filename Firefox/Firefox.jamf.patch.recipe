@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.amonteith2.jamf.VisualStudioCode-patch</string>
+	<string>com.github.amonteith2.jamf.Firefox-patch</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
