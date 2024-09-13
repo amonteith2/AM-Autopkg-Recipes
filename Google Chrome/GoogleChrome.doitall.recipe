@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>GoogleChrome</string>
+        <string>Chrome</string>
         <key>DOWNLOAD_URL</key>
         <string>https://dl.google.com/dl/chrome/mac/universal/stable/gcea/googlechrome.dmg</string>
     </dict>
