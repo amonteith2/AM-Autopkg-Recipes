@@ -5,7 +5,7 @@ Description: |
   Largely inspired (ie plagiarised with <3) from Graham Pugh's Cisco
   AnyConnect recipe com.github.grahampugh.recipes.pkg.CiscoAnyConnect.
 
-  AM Note: I've copied David Piries recipe for this but wanted to modify it as I wanted to modify the preinstall script.
+  AM Note: I have shamelessly copied David Piries recipe for this but wanted to modify it as I wanted to modify the preinstall script.
 
   Package source DMG must be provided either as Input Variable PKG or
   via the -p parameter eg:
@@ -82,13 +82,13 @@ Process:
       flat_pkg_path: "%pkg_path%"
       skip_payload: False
       destination_path: "%RECIPE_CACHE_DIR%/unpack"
-      purge_destination: True
+      purge_destination: False
 
   - Processor: PkgPayloadUnpacker
     Arguments:
       pkg_payload_path: "%RECIPE_CACHE_DIR%/unpack/vpn_module.pkg/Payload"
       destination_path: "%RECIPE_CACHE_DIR%/unpack-payload"
-      purge_destination: True
+      purge_destination: False
 
   - Processor: PlistReader
     Arguments:
@@ -179,10 +179,3 @@ Process:
         pkgroot: "%RECIPE_CACHE_DIR%/%NAME%/payload"
         scripts: "%RECIPE_CACHE_DIR%/%NAME%/scripts"
         version: "%version%"
-
-  - Processor: PathDeleter
-    Arguments:
-      path_list:
-        - "%RECIPE_CACHE_DIR%/%NAME%"
-        - "%RECIPE_CACHE_DIR%/unpack"
-        - "%RECIPE_CACHE_DIR%/unpack-payload"
