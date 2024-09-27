@@ -21,7 +21,7 @@
 		<key>PATCH_NAME</key>
 		<string>%NAME% Patch Policy</string>
 		<key>PATCH_SOFTWARE_TITLE</key>
-		<string>%NAME%</string>
+		<string>Google %NAME%</string>
 		<key>PATCH_TARGET_GROUP_NAME</key>
 		<string>Smart-update-Chrome</string>
 		<key>PATCH_TEMPLATE</key>
