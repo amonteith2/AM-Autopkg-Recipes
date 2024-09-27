@@ -4,19 +4,20 @@ MinimumVersion: '2.3'
 
 Input:
   NAME: Zoom
-  SOFTWARE_TITLE: Microsoft Visual Studio Code
+  SOFTWARE_TITLE: Zoom
   CATEGORY: Staff - App
   GROUP_NAME: Smart-update-Zoom
   GROUP_TEMPLATE: JamfSmartGroupTemplateTest.xml
   TESTING_GROUP_NAME: 'Staff Macs - All'
   PATCH_NAME: '%NAME% Patch Policy'
-  PATCH_SOFTWARE_TITLE: Microsoft Visual Studio Code
+  PATCH_SOFTWARE_TITLE: Zoom Client for Meetings
   PATCH_TEMPLATE: 'PatchTemplate-selfservice.xml'
   POLICY_NAME: 'App - %NAME%'
   PATCH_ENABLED: 'true'
   PATCH_UNKNOWN: 'true'
   PATCH_GRACE: '20'
   PATCH_ICON_POLICY_NAME: '%POLICY_NAME%'
+  PATCH_TARGET_GROUP_NAME: 'Staff Macs - All'
 
 Process:
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
