@@ -9,7 +9,7 @@
 		<key>CATEGORY</key>
 		<string>Internet</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>JamfSmartGroupTemplateTest.xml</string>
+		<string>JamfSmartGroupTemplate-Chrome.xml</string>
 		<key>NAME</key>
 		<string>Chrome</string>
 		<key>PATCH_ENABLED</key>
