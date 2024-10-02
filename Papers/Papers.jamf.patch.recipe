@@ -38,7 +38,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>*** Put the identifier of the pkg recipe in here ***</string>
+	<string>com.github.homebysix.pkg.Papers</string>
 	<key>Process</key>
 	<array>
 		<dict>
