@@ -33,7 +33,7 @@
 		<key>SOFTWARE_TITLE</key>
 		<string>%PATCH_SOFTWARE_TITLE%</string>
 		<key>TESTING_GROUP_NAME</key>
-		<string>Staff-App-%NAME%</string>
+		<string>Staff - App - %NAME%</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
