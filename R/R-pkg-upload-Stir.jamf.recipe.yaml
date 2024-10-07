@@ -7,7 +7,6 @@ Input:
   CATEGORY: Statistics
   PATCH_TARGET_GROUP_NAME: Smart-update-%NAME%
   GROUP_NAME: Staff - App - R
-  #TESTING_GROUP_NAME: Staff - App - R
   POLICY_CATEGORY: Staff - App
   POLICY_NAME: App - %NAME%
   POLICY_TEMPLATE: 'Policy_Install_SelfService_incVersion.xml'
