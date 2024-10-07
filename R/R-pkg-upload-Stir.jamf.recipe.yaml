@@ -8,7 +8,7 @@ Input:
   PATCH_TARGET_GROUP_NAME: Smart-update-%NAME%
   GROUP_NAME: Staff Macs - All
   GROUP_TEMPLATE: JamfSmartGroupTemplateTest.xml
-  TESTING_GROUP_NAME: Staff Macs - All
+  #TESTING_GROUP_NAME: Staff Macs - All
   POLICY_CATEGORY: Staff - App
   POLICY_NAME: App - %NAME%
   POLICY_TEMPLATE: Policy_Install_SelfService_incVersion.xml
