@@ -30,7 +30,7 @@ Process:
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfComputerGroupUploader
   Arguments:
     computergroup_name: '%GROUP_NAME%'
-    computergroup_template: JamfSmartGroupTemplate-R.xml
+    computergroup_template: Policy_Install_SelfService_incVersion.xml
     replace_group: 'True'
 
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader
