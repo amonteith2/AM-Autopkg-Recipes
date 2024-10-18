@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy>
+  <general>
+    <enabled>true</enabled>
+    <trigger>EVENT</trigger>
+    <trigger_checkin>true</trigger_checkin>
+    <trigger_enrollment_complete>true</trigger_enrollment_complete>
+    <frequency>Once per computer</frequency>
+    <retry_event>none</retry_event>
+    <retry_attempts>-1</retry_attempts>
+    <notify_on_each_failed_retry>false</notify_on_each_failed_retry>
+    <location_user_only>false</location_user_only>
+    <target_drive>/</target_drive>
+    <offline>false</offline>
+    <category>
+      <name>%POLICY_CATEGORY%</name>
+    </category>
+  </general>
+  <scope>
+    <computer_groups>
+      <computer_group>
+        <name>%GROUP_NAME%</name>
+      </computer_group>
+    </computer_groups>
+  </scope>
+  <self_service>
+    <use_for_self_service>false</use_for_self_service>
+  </self_service>
+  <package_configuration>
+    <packages>
+      <size>1</size>
+      <package>
+        <name>%pkg_name%</name>
+        <action>Install</action>
+      </package>
+    </packages>
+  </package_configuration>
+  <scripts>
+    <size>0</size>
+  </scripts>
+  <maintenance>
+    <recon>true</recon>
+  </maintenance>
+</policy>
