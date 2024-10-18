@@ -3,7 +3,7 @@
     <general>
         <name>%POLICY_NAME%</name>
         <enabled>true</enabled>
-        <frequency>Once per copmputer</frequency>
+        <frequency>Once per computer</frequency>
         <category>
             <name>%POLICY_CATEGORY%</name>
         </category>
@@ -34,7 +34,7 @@
     </scripts>
     <!-- Self Service details -->
     <self_service>
-        <use_for_self_service>true</use_for_self_service>
+        <use_for_self_service>false</use_for_self_service>
         <install_button_text>Install %version%</install_button_text>
         <reinstall_button_text>Reinstall %version%</reinstall_button_text>
         <self_service_display_name>%POLICY_NAME%</self_service_display_name>
