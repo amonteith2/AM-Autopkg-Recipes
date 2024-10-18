@@ -19,7 +19,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>Staff - App</string>
 		<key>POLICY_NAME</key>
-		<string>App - %NAME%</string>
+		<string>Install Office - Self Service</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>Policy_Install_SelfService_incVersion.xml</string>
 		<key>REINSTALL_BUTTON_TEXT</key>
