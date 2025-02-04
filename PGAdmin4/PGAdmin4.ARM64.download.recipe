@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the current release version of pgAdmin 4.</string>
     <key>Identifier</key>
-    <string>com.github.amonteith2.download.pgAdmin4</string>
+    <string>com.github.amonteith2.download.ARM64.pgAdmin4</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
