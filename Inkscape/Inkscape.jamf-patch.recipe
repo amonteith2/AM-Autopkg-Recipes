@@ -35,7 +35,7 @@
 		<key>POLICY_NAME</key>
 		<string>App - %NAME%</string>
 		<key>SOFTWARE_TITLE</key>
-		<string>**NAME AS IT APPEARS IN PATCH MANAGEMENT LIST**</string>
+		<string>%NAME%</string>
 		<key>TESTING_GROUP_NAME</key>
 		<string>Staff Macs - All</string>
 	</dict>
