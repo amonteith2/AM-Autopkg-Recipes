@@ -5,13 +5,13 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v2.4.1 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of MAXQDA24 and creates a package.</string>
+	<string>Downloads the latest version of MAXQDA and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.amonteith2.pkg.MAXQDA24</string>
+	<string>com.github.amonteith2.pkg.MAXQDA</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>MAXQDA24</string>
+		<string>MAXQDA</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
