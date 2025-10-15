@@ -62,7 +62,7 @@
 					<string>Apple Root CA</string>
 				</array>
 				<key>input_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%//Users/am21/Library/Caches/Recipe Robot/2025-10-15_09-20-17_479057/unpacked/Insta360Studio_5.7.6_release_insta360(RC_build45)_20250930_010756_signed_1759165793980.pkg</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/unpacked/Insta360Studio_5.7.6_release_insta360(RC_build45)_20250930_010756_signed_1759165793980.pkg</string>
 			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
