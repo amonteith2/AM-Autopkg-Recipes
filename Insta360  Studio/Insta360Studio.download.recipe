@@ -52,21 +52,6 @@
 			<key>Processor</key>
 			<string>Unarchiver</string>
 		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>expected_authority_names</key>
-				<array>
-					<string>Developer ID Installer: Shenzhen Arashi Vision Co., Ltd. (UBX9CH9GDX)</string>
-					<string>Developer ID Certification Authority</string>
-					<string>Apple Root CA</string>
-				</array>
-				<key>input_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/Insta360Studio_5.7.6_release_insta360(RC_build45)_20250930_010756_signed_1759165793980.pkg</string>
-			</dict>
-			<key>Processor</key>
-			<string>CodeSignatureVerifier</string>
-		</dict>
 	</array>
 </dict>
 </plist>
