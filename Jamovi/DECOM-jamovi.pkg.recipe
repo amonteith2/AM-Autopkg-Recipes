@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of jamovi and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.amonteith2.pkg.jamovi</string>
+	<string>DECOM-com.github.amonteith2.pkg.jamovi</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
